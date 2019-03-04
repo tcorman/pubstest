@@ -1,0 +1,827 @@
+{
+    "totalSize": 2,
+    "records": [
+        {
+            "displaySequence": -1,
+            "Id": "a4l6F000000k9t2QAA",
+            "OwnerId": "0056F0000077bTYQAY",
+            "IsDeleted": false,
+            "Name": "Smartphone",
+            "CreatedDate": "2017-11-29T08:31:42.000+0000",
+            "CreatedById": "0056F0000077bTYQAY",
+            "LastModifiedDate": "2017-11-29T08:31:42.000+0000",
+            "LastModifiedById": "0056F0000077bTYQAY",
+            "SystemModstamp": "2017-12-01T09:24:36.000+0000",
+            "LastViewedDate": "2017-11-29T22:41:13.000+0000",
+            "LastReferencedDate": "2017-11-29T22:41:13.000+0000",
+            "ins_plan_daily__AccountId__c": "0016F00002C6pkzQAB",
+            "ins_plan_daily__AttributeSelectedValues__c": "{\"valueCategory\":\"Cellular Phones\",\"centralAlarm\":true,\"localAlarm\":true,\"valueDesc\":\"Smartphone\",\"valueValue\":2500}",
+            "ins_plan_daily__SpecDescription__c": "Your belongings are likely worth much more than you might think.  If they're damaged, lost, or stolen personal property coverage will cover the cost of replacing them.",
+            "ins_plan_daily__SpecPricingSource__c": "monthlyPremium",
+            "ins_plan_daily__SpecProduct2Id__c": "01t6F000005bvxwQAA",
+            "ins_plan_daily__SpecProductName__c": "Valuable",
+            "ins_plan_daily__SpecProductRecordType__c": "InsuredItemSpec",
+            "Price": 36.19,
+            "attributeCategories": {
+                "totalSize": 2,
+                "records": [
+                    {
+                        "displaySequence": 50,
+                        "Code__c": "valuable",
+                        "Name": "Valuables",
+                        "id": "a1Q6F000009uPdPUAU",
+                        "productAttributes": {
+                            "totalSize": 6,
+                            "records": [
+                                {
+                                    "code": "valueCategory",
+                                    "dataType": "text",
+                                    "inputType": "dropdown",
+                                    "multiselect": false,
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwdUAB",
+                                    "label": "Category",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "id": "0",
+                                            "label": "Television",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Television"
+                                        },
+                                        {
+                                            "id": "1",
+                                            "label": "Home Audio",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Home Audio"
+                                        },
+                                        {
+                                            "id": "2",
+                                            "label": "Camera",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Camera"
+                                        },
+                                        {
+                                            "id": "3",
+                                            "label": "Cell Phone",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Cellular Phones"
+                                        },
+                                        {
+                                            "id": "4",
+                                            "label": "Headphones",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Headphones"
+                                        },
+                                        {
+                                            "id": "5",
+                                            "label": "Video Game Console",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Video Game Console"
+                                        },
+                                        {
+                                            "id": "6",
+                                            "label": "Wearables",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Wearables"
+                                        },
+                                        {
+                                            "id": "7",
+                                            "label": "Electronic Instrument",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Electronic Instrument"
+                                        },
+                                        {
+                                            "id": "8",
+                                            "label": "Musical Instrument",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Musical Instrument"
+                                        },
+                                        {
+                                            "id": "9",
+                                            "label": "Tablet",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Tablet"
+                                        },
+                                        {
+                                            "id": "10",
+                                            "label": "Laptop Computer",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Laptop"
+                                        },
+                                        {
+                                            "id": "11",
+                                            "label": "Desktop Computer",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Desktop"
+                                        },
+                                        {
+                                            "id": "12",
+                                            "label": "Computer Monitor",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Monitors"
+                                        },
+                                        {
+                                            "id": "13",
+                                            "label": "Computer Printer",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Printers"
+                                        },
+                                        {
+                                            "id": "14",
+                                            "label": "Luggage",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Luggage"
+                                        },
+                                        {
+                                            "id": "15",
+                                            "label": "Watch",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Watches"
+                                        },
+                                        {
+                                            "id": "16",
+                                            "label": "Jewelry",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Jewelry"
+                                        },
+                                        {
+                                            "id": "17",
+                                            "label": "Exercise Machines",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Exercise Machines"
+                                        },
+                                        {
+                                            "id": "18",
+                                            "label": "Hunting & Fishing Gear",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Hunting & Fishing"
+                                        },
+                                        {
+                                            "id": "19",
+                                            "label": "Golf Clubs",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Golf Clubs"
+                                        },
+                                        {
+                                            "id": "20",
+                                            "label": "Camping Equipment",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Camping"
+                                        },
+                                        {
+                                            "id": "21",
+                                            "label": "Cycling",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Cycling"
+                                        },
+                                        {
+                                            "id": "22",
+                                            "label": "Skis, Boots or Snowboard",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Skis & Snowboards"
+                                        },
+                                        {
+                                            "id": "23",
+                                            "label": "Watersports",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Water Sports"
+                                        },
+                                        {
+                                            "id": "24",
+                                            "label": "Power Tools",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Power Tools"
+                                        }
+                                    ],
+                                    "userValues": "Cellular Phones"
+                                },
+                                {
+                                    "code": "valueStartCover",
+                                    "dataType": "date",
+                                    "inputType": "date",
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwfUAB",
+                                    "label": "Coverage Start Date",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "readonly": false,
+                                            "disabled": false
+                                        }
+                                    ],
+                                    "userValues": null
+                                },
+                                {
+                                    "code": "valueDesc",
+                                    "dataType": "text",
+                                    "inputType": "textarea",
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwcUAB",
+                                    "label": "Description",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "readonly": false,
+                                            "disabled": false
+                                        }
+                                    ],
+                                    "userValues": "Smartphone"
+                                },
+                                {
+                                    "code": "valuePremium",
+                                    "dataType": "currency",
+                                    "inputType": "dropdown",
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwaUAB",
+                                    "label": "Monthly Premium",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "readonly": false,
+                                            "disabled": false
+                                        }
+                                    ],
+                                    "userValues": null
+                                },
+                                {
+                                    "code": "valueSerialNumber",
+                                    "dataType": "text",
+                                    "inputType": "text",
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xweUAB",
+                                    "label": "Serial Number",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "readonly": false,
+                                            "disabled": false
+                                        }
+                                    ],
+                                    "userValues": null
+                                },
+                                {
+                                    "code": "valueValue",
+                                    "dataType": "currency",
+                                    "inputType": "dropdown",
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwbUAB",
+                                    "label": "Value",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "readonly": false,
+                                            "disabled": false
+                                        }
+                                    ],
+                                    "userValues": 2500
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "displaySequence": 45,
+                        "Code__c": "Dwelling",
+                        "Name": "Dwelling",
+                        "id": "a1Q6F000009uPdQUAU",
+                        "productAttributes": {
+                            "totalSize": 2,
+                            "records": [
+                                {
+                                    "code": "centralAlarm",
+                                    "dataType": "text",
+                                    "inputType": "radio",
+                                    "multiselect": false,
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwhUAB",
+                                    "label": "Central Alarm",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "id": "0",
+                                            "label": "Yes",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "true"
+                                        },
+                                        {
+                                            "id": "1",
+                                            "label": "No",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "false"
+                                        }
+                                    ],
+                                    "userValues": true
+                                },
+                                {
+                                    "code": "localAlarm",
+                                    "dataType": "text",
+                                    "inputType": "dropdown",
+                                    "multiselect": false,
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwiUAB",
+                                    "label": "Local Alarm",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "id": "0",
+                                            "label": "Yes",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "true"
+                                        },
+                                        {
+                                            "id": "1",
+                                            "label": "No",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "false"
+                                        }
+                                    ],
+                                    "userValues": true
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "displaySequence": -1,
+            "Id": "a4l6F000000k9t7QAA",
+            "OwnerId": "0056F0000077bTYQAY",
+            "IsDeleted": false,
+            "Name": "Computer - Monitors",
+            "CreatedDate": "2017-11-29T22:45:02.000+0000",
+            "CreatedById": "0056F0000077bTYQAY",
+            "LastModifiedDate": "2017-11-29T22:45:02.000+0000",
+            "LastModifiedById": "0056F0000077bTYQAY",
+            "SystemModstamp": "2017-12-03T18:48:40.000+0000",
+            "LastViewedDate": "2017-12-02T00:37:14.000+0000",
+            "LastReferencedDate": "2017-12-02T00:37:14.000+0000",
+            "ins_plan_daily__AccountId__c": "0016F00002C6pkzQAB",
+            "ins_plan_daily__AttributeSelectedValues__c": "{\"valueCategory\":\"Monitors\",\"centralAlarm\":true,\"localAlarm\":true,\"valueDesc\":\"Computer - Monitors\",\"valueValue\":2500}",
+            "ins_plan_daily__SpecDescription__c": "Your belongings are likely worth much more than you might think.  If they're damaged, lost, or stolen personal property coverage will cover the cost of replacing them.",
+            "ins_plan_daily__SpecPricingSource__c": "monthlyPremium",
+            "ins_plan_daily__SpecProduct2Id__c": "01t6F000005bvxwQAA",
+            "ins_plan_daily__SpecProductName__c": "Valuable",
+            "ins_plan_daily__SpecProductRecordType__c": "InsuredItemSpec",
+            "Price": 1.52,
+            "attributeCategories": {
+                "totalSize": 2,
+                "records": [
+                    {
+                        "displaySequence": 50,
+                        "Code__c": "valuable",
+                        "Name": "Valuables",
+                        "id": "a1Q6F000009uPdPUAU",
+                        "productAttributes": {
+                            "totalSize": 6,
+                            "records": [
+                                {
+                                    "code": "valueCategory",
+                                    "dataType": "text",
+                                    "inputType": "dropdown",
+                                    "multiselect": false,
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwdUAB",
+                                    "label": "Category",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "id": "0",
+                                            "label": "Television",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Television"
+                                        },
+                                        {
+                                            "id": "1",
+                                            "label": "Home Audio",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Home Audio"
+                                        },
+                                        {
+                                            "id": "2",
+                                            "label": "Camera",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Camera"
+                                        },
+                                        {
+                                            "id": "3",
+                                            "label": "Cell Phone",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Cellular Phones"
+                                        },
+                                        {
+                                            "id": "4",
+                                            "label": "Headphones",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Headphones"
+                                        },
+                                        {
+                                            "id": "5",
+                                            "label": "Video Game Console",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Video Game Console"
+                                        },
+                                        {
+                                            "id": "6",
+                                            "label": "Wearables",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Wearables"
+                                        },
+                                        {
+                                            "id": "7",
+                                            "label": "Electronic Instrument",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Electronic Instrument"
+                                        },
+                                        {
+                                            "id": "8",
+                                            "label": "Musical Instrument",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Musical Instrument"
+                                        },
+                                        {
+                                            "id": "9",
+                                            "label": "Tablet",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Tablet"
+                                        },
+                                        {
+                                            "id": "10",
+                                            "label": "Laptop Computer",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Laptop"
+                                        },
+                                        {
+                                            "id": "11",
+                                            "label": "Desktop Computer",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Desktop"
+                                        },
+                                        {
+                                            "id": "12",
+                                            "label": "Computer Monitor",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Monitors"
+                                        },
+                                        {
+                                            "id": "13",
+                                            "label": "Computer Printer",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Printers"
+                                        },
+                                        {
+                                            "id": "14",
+                                            "label": "Luggage",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Luggage"
+                                        },
+                                        {
+                                            "id": "15",
+                                            "label": "Watch",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Watches"
+                                        },
+                                        {
+                                            "id": "16",
+                                            "label": "Jewelry",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Jewelry"
+                                        },
+                                        {
+                                            "id": "17",
+                                            "label": "Exercise Machines",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Exercise Machines"
+                                        },
+                                        {
+                                            "id": "18",
+                                            "label": "Hunting & Fishing Gear",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Hunting & Fishing"
+                                        },
+                                        {
+                                            "id": "19",
+                                            "label": "Golf Clubs",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Golf Clubs"
+                                        },
+                                        {
+                                            "id": "20",
+                                            "label": "Camping Equipment",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Camping"
+                                        },
+                                        {
+                                            "id": "21",
+                                            "label": "Cycling",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Cycling"
+                                        },
+                                        {
+                                            "id": "22",
+                                            "label": "Skis, Boots or Snowboard",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Skis & Snowboards"
+                                        },
+                                        {
+                                            "id": "23",
+                                            "label": "Watersports",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Water Sports"
+                                        },
+                                        {
+                                            "id": "24",
+                                            "label": "Power Tools",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "Power Tools"
+                                        }
+                                    ],
+                                    "userValues": "Monitors"
+                                },
+                                {
+                                    "code": "valueStartCover",
+                                    "dataType": "date",
+                                    "inputType": "date",
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwfUAB",
+                                    "label": "Coverage Start Date",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "readonly": false,
+                                            "disabled": false
+                                        }
+                                    ],
+                                    "userValues": null
+                                },
+                                {
+                                    "code": "valueDesc",
+                                    "dataType": "text",
+                                    "inputType": "textarea",
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwcUAB",
+                                    "label": "Description",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "readonly": false,
+                                            "disabled": false
+                                        }
+                                    ],
+                                    "userValues": "Computer - Monitors"
+                                },
+                                {
+                                    "code": "valuePremium",
+                                    "dataType": "currency",
+                                    "inputType": "dropdown",
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwaUAB",
+                                    "label": "Monthly Premium",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "readonly": false,
+                                            "disabled": false
+                                        }
+                                    ],
+                                    "userValues": null
+                                },
+                                {
+                                    "code": "valueSerialNumber",
+                                    "dataType": "text",
+                                    "inputType": "text",
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xweUAB",
+                                    "label": "Serial Number",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "readonly": false,
+                                            "disabled": false
+                                        }
+                                    ],
+                                    "userValues": null
+                                },
+                                {
+                                    "code": "valueValue",
+                                    "dataType": "currency",
+                                    "inputType": "dropdown",
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwbUAB",
+                                    "label": "Value",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "readonly": false,
+                                            "disabled": false
+                                        }
+                                    ],
+                                    "userValues": 2500
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "displaySequence": 45,
+                        "Code__c": "Dwelling",
+                        "Name": "Dwelling",
+                        "id": "a1Q6F000009uPdQUAU",
+                        "productAttributes": {
+                            "totalSize": 2,
+                            "records": [
+                                {
+                                    "code": "centralAlarm",
+                                    "dataType": "text",
+                                    "inputType": "radio",
+                                    "multiselect": false,
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwhUAB",
+                                    "label": "Central Alarm",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "id": "0",
+                                            "label": "Yes",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "true"
+                                        },
+                                        {
+                                            "id": "1",
+                                            "label": "No",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "false"
+                                        }
+                                    ],
+                                    "userValues": true
+                                },
+                                {
+                                    "code": "localAlarm",
+                                    "dataType": "text",
+                                    "inputType": "dropdown",
+                                    "multiselect": false,
+                                    "required": false,
+                                    "readonly": false,
+                                    "disabled": false,
+                                    "filterable": true,
+                                    "attributeId": "a1R6F00000K5xwiUAB",
+                                    "label": "Local Alarm",
+                                    "displaySequence": -1,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "values": [
+                                        {
+                                            "id": "0",
+                                            "label": "Yes",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "true"
+                                        },
+                                        {
+                                            "id": "1",
+                                            "label": "No",
+                                            "readonly": false,
+                                            "disabled": false,
+                                            "value": "false"
+                                        }
+                                    ],
+                                    "userValues": true
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,397 @@
+{
+  "status": "Complete",
+  "primaryDataPackKey": "149b1d83c34f7c9e64cd76271af69d62",
+  "dataPacks": [
+    {
+      "VlocityPrimarySourceId": "a1h36000000v8UDAAY",
+      "VlocityDataPackType": "OmniScript",
+      "VlocityDataPackStatus": "Success",
+      "VlocityDataPackRelationshipType": "Primary",
+      "VlocityDataPackRecords": [],
+      "VlocityDataPackParents": [],
+      "VlocityDataPackName": "Id: a1h36000000v8UDAAY",
+      "VlocityDataPackMessage": null,
+      "VlocityDataPackLabel": "OmniScript",
+      "VlocityDataPackKey": "149b1d83c34f7c9e64cd76271af69d62",
+      "VlocityDataPackIsNotSupported": false,
+      "VlocityDataPackData": {
+        "VlocityDataPackRelationshipType": "Primary",
+        "VlocityDataPackKey": "149b1d83c34f7c9e64cd76271af69d62",
+        "VlocityDataPackLabel": "OmniScript",
+        "VlocityDataPackType": "OmniScript",
+        "Id": "a1h36000000v8UDAAY",
+        "%vlocity_namespace%__OmniScript__c": [
+          {
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSourceKey": "VlocityRecordSourceKey:a1h36000000v8UDAAY",
+            "Id": "a1h36000000v8UDAAY",
+            "Name": "LookupTest",
+            "%vlocity_namespace%__IsActive__c": false,
+            "%vlocity_namespace%__IsReusable__c": false,
+            "%vlocity_namespace%__Language__c": "English",
+            "%vlocity_namespace%__PropertySet__c": "{\"persistentComponent\":[{\"render\":false,\"label\":\"\",\"remoteClass\":\"\",\"remoteMethod\":\"\",\"remoteTimeout\":30000,\"remoteOptions\":{\"preTransformBundle\":\"\",\"postTransformBundle\":\"\"},\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"sendJSONPath\":\"\",\"sendJSONNode\":\"\",\"responseJSONPath\":\"\",\"responseJSONNode\":\"\",\"id\":\"vlcCart\",\"itemsKey\":\"cartItems\",\"modalConfigurationSetting\":{\"modalHTMLTemplateId\":\"vlcProductConfig.html\",\"modalController\":\"ModalProductCtrl\",\"modalSize\":\"lg\"}},{\"render\":false,\"label\":\"\",\"remoteClass\":\"\",\"remoteMethod\":\"\",\"remoteTimeout\":30000,\"remoteOptions\":{\"preTransformBundle\":\"\",\"postTransformBundle\":\"\"},\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"id\":\"vlcKnowledge\",\"itemsKey\":\"knowledgeItems\",\"modalConfigurationSetting\":{\"modalHTMLTemplateId\":\"\",\"modalController\":\"\",\"modalSize\":\"lg\"}}],\"allowSaveForLater\":true,\"saveNameTemplate\":null,\"saveExpireInDays\":null,\"saveForLaterRedirectPageName\":\"sflRedirect\",\"saveForLaterRedirectTemplateUrl\":\"vlcSaveForLaterAcknowledge.html\",\"saveContentEncoded\":false,\"autoSaveOnStepNext\":false,\"elementTypeToHTMLTemplateMapping\":{},\"seedDataJSON\":{},\"enableKnowledge\":false,\"knowledgeArticleTypeQueryFieldsMap\":{},\"timeTracking\":true,\"visualforcePagesAvailableInPreview\":{},\"cancelType\":\"SObject\",\"cancelSource\":\"%ContextId%\",\"cancelRedirectPageName\":\"OmniScriptCancelled\",\"cancelRedirectTemplateUrl\":\"vlcCancelled.html\"}",
+            "%vlocity_namespace%__SubType__c": "Save Contact Data",
+            "%vlocity_namespace%__Type__c": "Sample",
+            "%vlocity_namespace%__Version__c": 1,
+            "%vlocity_namespace%__Element__c": [
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0w36000002CYgXAAW",
+                "Id": "a0w36000002CYgXAAW",
+                "Name": "Employees",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "LookupTest",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1h36000000v8UDAAY"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 1,
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__Order__c": 3,
+                "%vlocity_namespace%__ParentElementId__c": {
+                  "Name": "Account",
+                  "%vlocity_namespace%__OmniScriptId__c": "a1h36000000v8UDAAY",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a0w36000002CXrnAAG"
+                },
+                "%vlocity_namespace%__ParentElementName__c": "Account",
+                "%vlocity_namespace%__ParentElementType__c": "Step",
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":null,\"label\":\"Employees\",\"controlWidth\":12,\"required\":false,\"repeat\":false,\"repeatClone\":false,\"readOnly\":false,\"help\":false,\"helpText\":\"\",\"pattern\":\"\",\"ptrnErrText\":\"\",\"minLength\":0,\"maxLength\":255,\"mask\":null,\"conditionType\":\"Hide if False\",\"accessibleInFutureSteps\":false,\"debounceValue\":0}",
+                "%vlocity_namespace%__ReusableOmniScript__c": false,
+                "%vlocity_namespace%__Type__c": "Number",
+                "VlocityDataPackIsIncluded": true
+              },
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0w36000002CZtwAAG",
+                "Id": "a0w36000002CZtwAAG",
+                "Name": "Account2",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "LookupTest",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1h36000000v8UDAAY"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 0,
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__Order__c": 3,
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":null,\"label\":\"Account2\",\"validationRequired\":true,\"previousLabel\":\"Previous\",\"previousWidth\":3,\"nextLabel\":\"Next\",\"nextWidth\":3,\"cancelLabel\":\"Cancel\",\"cancelMessage\":\"Are you sure?\",\"saveLabel\":\"Save for later\",\"saveMessage\":\"Are you sure you want to save it for later?\",\"completeLabel\":\"Complete\",\"completeMessage\":\"Are you sure you want to complete the script?\",\"instruction\":\"\",\"showPersistentComponent\":[false,false],\"remoteClass\":\"\",\"remoteMethod\":\"\",\"remoteTimeout\":30000,\"remoteOptions\":{},\"knowledgeOptions\":{\"language\":\"English\",\"publishStatus\":\"Online\",\"keyword\":\"\",\"dataCategoryCriteria\":\"\",\"remoteTimeout\":30000},\"conditionType\":\"Hide if False\"}",
+                "%vlocity_namespace%__ReusableOmniScript__c": false,
+                "%vlocity_namespace%__Type__c": "Step",
+                "VlocityDataPackIsIncluded": true
+              },
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0w36000002CYgcAAG",
+                "Id": "a0w36000002CYgcAAG",
+                "Name": "Employees2",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "LookupTest",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1h36000000v8UDAAY"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 1,
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__Order__c": 1,
+                "%vlocity_namespace%__ParentElementId__c": {
+                  "Name": "Account2",
+                  "%vlocity_namespace%__OmniScriptId__c": "a1h36000000v8UDAAY",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a0w36000002CZtwAAG"
+                },
+                "%vlocity_namespace%__ParentElementName__c": "Account2",
+                "%vlocity_namespace%__ParentElementType__c": "Step",
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":{\"group\":{\"operator\":\"AND\",\"rules\":[{\"condition\":\"<>\",\"field\":\"Employees\",\"data\":\"0\"}]}},\"label\":\"Employees2\",\"controlWidth\":12,\"required\":false,\"repeat\":false,\"repeatClone\":false,\"readOnly\":false,\"help\":false,\"helpText\":\"\",\"pattern\":\"\",\"ptrnErrText\":\"\",\"minLength\":0,\"maxLength\":255,\"mask\":null,\"conditionType\":\"Hide if False\",\"accessibleInFutureSteps\":true,\"debounceValue\":0}",
+                "%vlocity_namespace%__ReusableOmniScript__c": false,
+                "%vlocity_namespace%__Type__c": "Number",
+                "VlocityDataPackIsIncluded": true
+              },
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0w36000002CYFMAA4",
+                "Id": "a0w36000002CYFMAA4",
+                "Name": "Name",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "LookupTest",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1h36000000v8UDAAY"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 1,
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__Order__c": 1,
+                "%vlocity_namespace%__ParentElementId__c": {
+                  "Name": "Account",
+                  "%vlocity_namespace%__OmniScriptId__c": "a1h36000000v8UDAAY",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a0w36000002CXrnAAG"
+                },
+                "%vlocity_namespace%__ParentElementName__c": "Account",
+                "%vlocity_namespace%__ParentElementType__c": "Step",
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":null,\"label\":\"Name\",\"controlWidth\":12,\"required\":false,\"repeat\":false,\"repeatClone\":false,\"readOnly\":false,\"help\":false,\"helpText\":\"\",\"mask\":\"\",\"pattern\":\"\",\"ptrnErrText\":\"\",\"minLength\":0,\"maxLength\":255,\"conditionType\":\"Hide if False\",\"accessibleInFutureSteps\":false,\"debounceValue\":0}",
+                "%vlocity_namespace%__ReusableOmniScript__c": false,
+                "%vlocity_namespace%__Type__c": "Text",
+                "VlocityDataPackIsIncluded": true
+              },
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0w36000002CYB0AAO",
+                "Id": "a0w36000002CYB0AAO",
+                "Name": "Id",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "LookupTest",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1h36000000v8UDAAY"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 1,
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__Order__c": 2,
+                "%vlocity_namespace%__ParentElementId__c": {
+                  "Name": "Account",
+                  "%vlocity_namespace%__OmniScriptId__c": "a1h36000000v8UDAAY",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a0w36000002CXrnAAG"
+                },
+                "%vlocity_namespace%__ParentElementName__c": "Account",
+                "%vlocity_namespace%__ParentElementType__c": "Step",
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":null,\"label\":\"Id\",\"controlWidth\":12,\"required\":false,\"repeat\":false,\"repeatClone\":false,\"readOnly\":false,\"help\":false,\"helpText\":\"\",\"mask\":\"\",\"pattern\":\"\",\"ptrnErrText\":\"\",\"minLength\":0,\"maxLength\":255,\"conditionType\":\"Hide if False\",\"accessibleInFutureSteps\":false,\"debounceValue\":0}",
+                "%vlocity_namespace%__ReusableOmniScript__c": false,
+                "%vlocity_namespace%__Type__c": "Text",
+                "VlocityDataPackIsIncluded": true
+              },
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0w36000002CXrnAAG",
+                "Id": "a0w36000002CXrnAAG",
+                "Name": "Account",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "LookupTest",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1h36000000v8UDAAY"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 0,
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__Order__c": 2,
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":null,\"label\":\"Account\",\"validationRequired\":true,\"previousLabel\":\"Previous\",\"previousWidth\":3,\"nextLabel\":\"Next\",\"nextWidth\":3,\"cancelLabel\":\"Cancel\",\"cancelMessage\":\"Are you sure?\",\"saveLabel\":\"Save for later\",\"saveMessage\":\"Are you sure you want to save it for later?\",\"completeLabel\":\"Complete\",\"completeMessage\":\"Are you sure you want to complete the script?\",\"instruction\":\"\",\"showPersistentComponent\":[false,false],\"remoteClass\":\"\",\"remoteMethod\":\"\",\"remoteTimeout\":30000,\"remoteOptions\":{},\"knowledgeOptions\":{\"language\":\"English\",\"publishStatus\":\"Online\",\"keyword\":\"\",\"dataCategoryCriteria\":\"\",\"remoteTimeout\":30000},\"conditionType\":\"Hide if False\"}",
+                "%vlocity_namespace%__ReusableOmniScript__c": false,
+                "%vlocity_namespace%__Type__c": "Step",
+                "VlocityDataPackIsIncluded": true
+              },
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0w36000002CXrtAAG",
+                "Id": "a0w36000002CXrtAAG",
+                "Name": "GetAccountData",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "LookupTest",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1h36000000v8UDAAY"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 0,
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__Order__c": 1,
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":null,\"label\":\"GetAccountData\",\"controlWidth\":12,\"bundle\":\"AccountExtract\",\"dataRaptor Input Parameters\":[{\"inputParam\":\"Id\",\"element\":\"ContextId\"}],\"remoteTimeout\":30000,\"responseJSONPath\":\"\",\"responseJSONNode\":\"\",\"inProgressMessage\":\"In Progress\",\"postMessage\":\"Done\",\"failureNextLabel\":\"Continue\",\"failureAbortLabel\":\"Abort\",\"failureAbortMessage\":\"Are you sure?\",\"validationRequired\":\"None\",\"redirectPageName\":\"\",\"redirectTemplateUrl\":\"vlcAcknowledge.html\",\"redirectNextLabel\":\"Next\",\"redirectNextWidth\":3,\"redirectPreviousLabel\":\"Previous\",\"redirectPreviousWidth\":3,\"showPersistentComponent\":[false,false]}",
+                "%vlocity_namespace%__ReusableOmniScript__c": false,
+                "%vlocity_namespace%__Type__c": "DataRaptor Extract Action",
+                "VlocityDataPackIsIncluded": true
+              }
+            ],
+            "VlocityDataPackIsIncluded": true
+          }
+        ],
+        "VlocityDataPackIsIncluded": true
+      }
+    },
+    {
+      "VlocityPrimarySourceId": "a0k36000003eqahAAA",
+      "VlocityDataPackType": "DataRaptor",
+      "VlocityDataPackStatus": "Success",
+      "VlocityDataPackRelationshipType": "Sibling",
+      "VlocityDataPackRecords": [],
+      "VlocityDataPackParents": [],
+      "VlocityDataPackName": "AccountExtract",
+      "VlocityDataPackMessage": null,
+      "VlocityDataPackLabel": "DataRaptor",
+      "VlocityDataPackKey": "c3d04b33d4d901580716a587f7d36db1",
+      "VlocityDataPackIsNotSupported": false,
+      "VlocityDataPackData": {
+        "%vlocity_namespace%__DRBundle__c": [
+          {
+            "%vlocity_namespace%__DRMapItem__c": [
+              {
+                "%vlocity_namespace%__UpsertKey__c": false,
+                "%vlocity_namespace%__MapId__c": "AccountExtractCustom3101",
+                "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+                "%vlocity_namespace%__IsDisabled__c": false,
+                "%vlocity_namespace%__InterfaceObjectName__c": "Account",
+                "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+                "%vlocity_namespace%__InterfaceFieldAPIName__c": "Id",
+                "%vlocity_namespace%__FilterValue__c": "Id",
+                "%vlocity_namespace%__FilterOperator__c": "=",
+                "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Account",
+                "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+                "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+                "Name": "AccountExtract",
+                "Id": "a0l36000002oKTcAAM",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0l36000002oKTcAAM",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+              },
+              {
+                "%vlocity_namespace%__UpsertKey__c": false,
+                "%vlocity_namespace%__MapId__c": "AccountExtractCustom5973",
+                "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+                "%vlocity_namespace%__IsDisabled__c": false,
+                "%vlocity_namespace%__InterfaceFieldAPIName__c": "Account:Id",
+                "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Account:Id",
+                "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+                "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+                "Name": "AccountExtract",
+                "Id": "a0l36000002oKUBAA2",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0l36000002oKUBAA2",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+              },
+              {
+                "%vlocity_namespace%__UpsertKey__c": false,
+                "%vlocity_namespace%__MapId__c": "AccountExtractCustom3357",
+                "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+                "%vlocity_namespace%__IsDisabled__c": false,
+                "%vlocity_namespace%__InterfaceFieldAPIName__c": "Account:Name",
+                "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Account:Name",
+                "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+                "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+                "Name": "AccountExtract",
+                "Id": "a0l36000002oKoVAAU",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0l36000002oKoVAAU",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+              },
+              {
+                "%vlocity_namespace%__UpsertKey__c": false,
+                "%vlocity_namespace%__MapId__c": "AccountExtractCustom9700",
+                "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+                "%vlocity_namespace%__IsDisabled__c": false,
+                "%vlocity_namespace%__InterfaceFieldAPIName__c": "Account:NumberOfEmployees",
+                "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Account:Employees",
+                "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+                "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+                "Name": "AccountExtract",
+                "Id": "a0l36000002oKp9AAE",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0l36000002oKp9AAE",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+              },
+              {
+                "%vlocity_namespace%__UpsertKey__c": false,
+                "%vlocity_namespace%__MapId__c": "AccountExtractCustom3985",
+                "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+                "%vlocity_namespace%__IsDisabled__c": false,
+                "%vlocity_namespace%__InterfaceFieldAPIName__c": "Account:NumberOfEmployees",
+                "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Employees2",
+                "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+                "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+                "Name": "AccountExtract",
+                "Id": "a0l36000002oMCQAA2",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0l36000002oMCQAA2",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+              }
+            ],
+            "%vlocity_namespace%__Type__c": "Extract (JSON)",
+            "%vlocity_namespace%__ProcessNowThreshold__c": 0,
+            "%vlocity_namespace%__IsProcessSuperBulk__c": false,
+            "%vlocity_namespace%__IsDefaultForInterface__c": false,
+            "%vlocity_namespace%__InterfaceObject__c": "json",
+            "%vlocity_namespace%__IgnoreErrors__c": false,
+            "%vlocity_namespace%__DeleteOnSuccess__c": false,
+            "%vlocity_namespace%__DRMapName__c": "AccountExtract",
+            "%vlocity_namespace%__BatchSize__c": 200,
+            "Name": "AccountExtract",
+            "Id": "a0k36000003eqahAAA",
+            "VlocityRecordSourceKey": "VlocityRecordSourceKey:a0k36000003eqahAAA",
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DRBundle__c",
+            "VlocityDataPackIsIncluded": true
+          }
+        ],
+        "Id": "AccountExtract",
+        "VlocityDataPackType": "DataRaptor",
+        "VlocityDataPackLabel": "DataRaptor",
+        "VlocityDataPackKey": "c3d04b33d4d901580716a587f7d36db1",
+        "VlocityDataPackRelationshipType": "Sibling",
+        "VlocityDataPackIsIncluded": true
+      }
+    },
+    {
+      "VlocityPrimarySourceId": null,
+      "VlocityDataPackType": "VlocityUITemplate",
+      "VlocityDataPackStatus": "Not Included",
+      "VlocityDataPackRelationshipType": "Children",
+      "VlocityDataPackRecords": [],
+      "VlocityDataPackParents": [
+        "149b1d83c34f7c9e64cd76271af69d62"
+      ],
+      "VlocityDataPackName": "vlcProductConfig.html",
+      "VlocityDataPackMessage": null,
+      "VlocityDataPackLabel": "Vlocity UI Template",
+      "VlocityDataPackKey": "afb3b311cf9beb4a62d933c8c2d90042",
+      "VlocityDataPackIsNotSupported": false,
+      "VlocityDataPackData": {
+        "Id": "vlcProductConfig.html",
+        "VlocityDataPackType": "VlocityUITemplate",
+        "VlocityDataPackLabel": "Vlocity UI Template",
+        "VlocityDataPackKey": "afb3b311cf9beb4a62d933c8c2d90042",
+        "VlocityDataPackRelationshipType": "Children"
+      }
+    },
+    {
+      "VlocityPrimarySourceId": null,
+      "VlocityDataPackType": "VlocityUITemplate",
+      "VlocityDataPackStatus": "Not Included",
+      "VlocityDataPackRelationshipType": "Children",
+      "VlocityDataPackRecords": [],
+      "VlocityDataPackParents": [
+        "149b1d83c34f7c9e64cd76271af69d62"
+      ],
+      "VlocityDataPackName": "vlcAcknowledge.html",
+      "VlocityDataPackMessage": null,
+      "VlocityDataPackLabel": "Vlocity UI Template",
+      "VlocityDataPackKey": "3ab74d368e12ae197750f91e4fc2c5b8",
+      "VlocityDataPackIsNotSupported": false,
+      "VlocityDataPackData": {
+        "Id": "vlcAcknowledge.html",
+        "VlocityDataPackType": "VlocityUITemplate",
+        "VlocityDataPackLabel": "Vlocity UI Template",
+        "VlocityDataPackKey": "3ab74d368e12ae197750f91e4fc2c5b8",
+        "VlocityDataPackRelationshipType": "Children"
+      }
+    }
+  ],
+  "dataPackId": "a2d36000000YB0qAAG",
+  "name": "LookupTest",
+  "version": 1
+}

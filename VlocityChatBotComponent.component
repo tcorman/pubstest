@@ -1,0 +1,105 @@
+<apex:component controller="ChatBotDisplayController" access="global">
+    <apex:attribute name="botName"
+                    type="String"
+                    access="global"
+                    default=""
+                    description="The Integration Procedure"/>
+    <apex:attribute name="strAngularModuleList"
+                    type="String"
+                    access="global"
+                    default="default"
+                    description="List of angular modules to load (comma separated string), example: ngSanitize,ngAnimate,ngRoute,ui.bootstrap,ui.mask"/>                    
+    <apex:attribute name="loadDefaultJS"
+                    type="Boolean"
+                    access="global"
+                    default="true"
+                    description="Use this attribute to load default JS files, setting it to false allows you load your own JS files in custom VF page"/>
+    <apex:attribute name="loadDefaultCSS"
+                    type="Boolean"
+                    access="global"
+                    default="true"
+                    description="Use this attribute to load default CSS files, setting it to false allows you load your own CSS files in custom VF page"/>
+    <apex:attribute name="elementTypeToHTMLTemplateMapping"
+                    type="String"
+                    default="{}"
+                    access="global"
+                    description="Element Type and HTML markup mapping, example: {'Text':'customText.html','CustomType':'customCtrl.html'}"/>
+
+
+    <script type="text/javascript">
+    //"use strict";
+    
+    // SFDC dependencies
+    // temp
+    window.VOmniForceng = '3MVG9szVa2RxsqBa5tQyU6.tKh61yiGXNhItGzvNJWh1oJh4fcI4pRlqlx1i2MLagkNovsmbaZfSE5mSZ6rCo';
+    window.sessionId = '{!$Api.Session_ID}';   
+    window.cbModuleList = "{!strAngularModuleList}";          
+    var remoteActionMap = {};
+    remoteActionMap.GenericInvoke2 = '{!$RemoteAction.ChatBotDisplayController.GenericInvoke2}';
+    remoteActionMap.CreateOSContentVersion = '{!$RemoteAction.ChatBotDisplayController.CreateOSContentVersionBase}';
+    remoteActionMap.CreateOSContentVersionAddLink = '{!$RemoteAction.ChatBotDisplayController.ContentVersionAddLinkBase}';
+
+    var sfdcVars = {};
+    sfdcVars.sNS = '{!sNS}';
+
+    sfdcVars.mode = '{!JSENCODE(mode)}';
+    // swaps out 'lightning' for 'console' as 'console' is used internally
+    if(sfdcVars.mode == 'lightning') {
+        sfdcVars.mode = 'console';
+    }
+
+    sfdcVars.botName = '{!JSENCODE(botName)}';
+    sfdcVars.noneDataControlTypeListV2 = 'default';
+    sfdcVars.layout = 'lightning';
+    sfdcVars.urlParams = JSON.parse("{!JSENCODE(urlParams)}");  
+    sfdcVars.eleTypeToHTMLTemplateMap = {!elementTypeToHTMLTemplateMapping};        
+    sfdcVars.instanceHost = "..";        
+   
+    // SFDC labels
+    var customLabels = {"OmniRequired":"{!$Label.OmniRequired}",
+                        "ChatBotNotAvailable":"{!$Label.ChatBotNotAvailable}",
+                        "OmniLoading" : "{!$Label.OmniLoading}",
+                        "RequestTooLarge":"{!$Label.RequestTooLarge}",
+                        "OmniNoSFDCConnection":"{!$Label.OmniNoSFDCConnection}",
+                        "OmniMinLength":"{!$Label.OmniMinLength}",
+                        "OmniMaxLength":"{!$Label.OmniMaxLength}", 
+                        "OmniMinValue":"{!$Label.OmniMinValue}",      
+                        "OmniMaxValue":"{!$Label.OmniMaxValue}",
+                        "OmniMinInt":"{!$Label.OmniMinInt}",      
+                        "OmniMaxInt":"{!$Label.OmniMaxInt}",
+                        "OmniClear":"{!$Label.OmniClear}",
+                        "OmniScriptSavingAttachmentsFailed":"{!$Label.OmniScriptSavingAttachmentsFailed}",
+                        "OmnisubmitLabel":"{!$Label.OmnisubmitLabel}",
+                        "OmnicancelLabel":"{!$Label.OmnicancelLabel}",
+                        "OmniOK":"{!$Label.OmniOK}",
+                        "OmniUploadFailed":"{!$Label.OmniUploadFailed}",
+                        "OmniMaxFileSize":"{!$Label.OmniMaxFileSize}",
+                        "OmniStepValidationError":"{!$Label.OmniStepValidationError}",
+                        "SldsDatetimeFormats":'{!$Label.SldsDatetimeFormats}'//Stringified JSON requires single quotes             
+                       };
+                       
+    sessionStorage.setItem('vlocity.customLabels', JSON.stringify(customLabels));                       
+    var chatBotIconUrl = null;
+                                        
+    </script>
+    <c:OmniBaseUrlForContent />
+
+    <apex:stylesheet value="{!IF(loadDefaultCSS==true,URLFOR($Resource.slds, '/assets/styles/salesforce-lightning-design-system-vf.min.css'), NULL)}"/> 
+
+    <apex:stylesheet value="{!IF(
+    AND(loadDefaultCSS==true, OR(mode=='console', mode=='lightning')),URLFOR($Resource.VlocityChatBotConsoleCss), URLFOR($Resource.VlocityChatBotCss))}"/>         
+
+
+    <script type="text/javascript" src="{!IF(omniIframeEmbedded==true,URLFOR($Resource.iframeresizer, '/js/iframeResizer.contentWindow.min.js'), NULL)}"></script>
+
+    <script type="text/javascript" src="{!IF(loadDefaultJS==true,URLFOR($Resource.VlocityChatBotLibs), NULL)}"></script>
+    <script type="text/javascript" src="{!IF(loadDefaultJS==true,URLFOR($Resource.ViaDirectives), NULL)}"></script>        
+    <script type="text/javascript" src="{!IF(loadDefaultJS==true,URLFOR($Resource.OmniVlocity), NULL)}"></script>  
+    <script type="text/javascript" src="{!IF(loadDefaultJS==true,URLFOR($Resource.SldsAngular), NULL)}"></script>  
+    <script type="text/javascript" src="{!IF(loadDefaultJS==true,URLFOR($Resource.VlocityChatBotJS), NULL)}"></script>  
+    <script type="text/javascript" src="{!IF(loadDefaultJS==true,URLFOR($Resource.VlocityChatBotTemplates), NULL)}"></script>                          
+       
+
+    <ng-include src="'vlcBotMain.html'"></ng-include>
+
+</apex:component>

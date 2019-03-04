@@ -1,0 +1,2873 @@
+{
+  
+  "ListofProducts": [
+    {
+      "displaySequence": -1,
+      "CalculatedPriceData": {
+        "ID": "0",
+        "premiumCoverageC": 300,
+        "premiumCovX__premiumCovX": 27,
+        "premiumCovY__premiumCovY": 5,
+        "premiumBusUse__premiumBusinessUse": 6,
+        "premiumBusProperty__premiumBusProp": 14,
+        "BasePremium": 352,
+        "adjustPremium": 577,
+        "multilineDiscountValue": 58,
+        "netPremium": 519,
+        "premiumJewelry__premiumJewelry": "3",
+        "premiumCamera__premiumCamera": 4,
+        "premiumMusicInst__premiumMusicInst": 2,
+        "premiumSports__premiumSports": 4,
+        "totalPremium": 532,
+        "monthlyPremium": 44.33
+      },
+      "Id": "01t1I000000J2ZLQA0",
+      "Name": "Economy Renters",
+      "Description": "Economy Renters",
+      "Family": "Personal Lines",
+      "ProductCode": "Rent-ECO",
+      "LineOfBusiness__c": "Property & Casualty",
+      "Type__c": "Renters",
+      "IsRecommended__c": false,
+      "PricingSource__c": "totalPremium",
+      "RecordTypeName__c": "Product",
+      "IsConfigurable__c": true,
+      "productId": "01t1I000000J2ZLQA0",
+      "Price": 532,
+      "childProducts": {
+        "totalSize": 9,
+        "records": [
+          {
+            "displaySequence": 1,
+            "Price": 4,
+            "Id": "01t1I000000J2ZIQA0",
+            "Name": "Sporting Goods",
+            "Family": "Personal Lines",
+            "ProductCode": "S",
+            "LineOfBusiness__c": "Property & Casualty",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumSports__premiumSports",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZIQA0",
+            "pciId": "a2f1I000000MBBvQAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSPwUAM",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitSports",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehGUAQ",
+                        "label": "Limit - Sporting Goods",
+                        "displaySequence": 1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "$0",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "0"
+                          },
+                          {
+                            "id": "1",
+                            "label": "$1000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "1000"
+                          },
+                          {
+                            "id": "2",
+                            "label": "$2000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "2000"
+                          },
+                          {
+                            "id": "3",
+                            "label": "$3000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "3000"
+                          },
+                          {
+                            "id": "4",
+                            "label": "$4000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "4000"
+                          },
+                          {
+                            "id": "5",
+                            "label": "$5000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "5000"
+                          },
+                          {
+                            "id": "6",
+                            "label": "$10,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "10000"
+                          },
+                          {
+                            "id": "7",
+                            "label": "$25,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "25000"
+                          },
+                          {
+                            "id": "8",
+                            "label": "$50,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "50000"
+                          }
+                        ],
+                        "userValues": "1000"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 1,
+            "Price": 300,
+            "Id": "01t1I000000J2ZGQA0",
+            "Name": "Personal Property",
+            "Description": "Family Liability Coverage",
+            "ProductCode": "PP",
+            "Type__c": "Renters",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumCoverageC",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZGQA0",
+            "pciId": "a2f1I000000MBBtQAO",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitCoverageC",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005eh9UAA",
+                        "label": "Coverage C - Personal Property",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "$10,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "10000"
+                          },
+                          {
+                            "id": "1",
+                            "label": "$25,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "25000"
+                          },
+                          {
+                            "id": "2",
+                            "label": "$50,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "50000"
+                          },
+                          {
+                            "id": "3",
+                            "label": "$100,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "100000"
+                          },
+                          {
+                            "id": "4",
+                            "label": "$150,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "150000"
+                          },
+                          {
+                            "id": "5",
+                            "label": "$200,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "200000"
+                          }
+                        ],
+                        "userValues": "200000"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 1,
+            "Price": 2,
+            "Id": "01t1I000000J2ZEQA0",
+            "Name": "Musical Instrument",
+            "Family": "Personal Lines",
+            "ProductCode": "MI",
+            "LineOfBusiness__c": "Property & Casualty",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumMusicInst__premiumMusicInst",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZEQA0",
+            "pciId": "a2f1I000000MBBrQAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSPrUAM",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitMusicInst",
+                        "dataType": "currency",
+                        "inputType": "dropdown",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehFUAQ",
+                        "label": "Limit - Musical Instruments",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "$1000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 1000
+                          },
+                          {
+                            "id": "1",
+                            "label": "$2000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 2000
+                          },
+                          {
+                            "id": "2",
+                            "label": "$3000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 3000
+                          },
+                          {
+                            "id": "3",
+                            "label": "$4000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 4000
+                          },
+                          {
+                            "id": "4",
+                            "label": "$5000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 5000
+                          },
+                          {
+                            "id": "5",
+                            "label": "$10,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 10000
+                          },
+                          {
+                            "id": "6",
+                            "label": "$25,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 25000
+                          },
+                          {
+                            "id": "7",
+                            "label": "$50,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 50000
+                          }
+                        ],
+                        "userValues": 1000
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 1,
+            "Price": "3",
+            "Id": "01t1I000000J2ZDQA0",
+            "Name": "Jewelry",
+            "Family": "Personal Lines",
+            "ProductCode": "J",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumJewelry__premiumJewelry",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZDQA0",
+            "pciId": "a2f1I000000MBBqQAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSQ1UAM",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitJewelry",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehIUAQ",
+                        "label": "Limit - Jewelry",
+                        "displaySequence": 1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "0",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "0"
+                          },
+                          {
+                            "id": "1",
+                            "label": "$1000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "1000"
+                          },
+                          {
+                            "id": "2",
+                            "label": "$2000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "2000"
+                          },
+                          {
+                            "id": "3",
+                            "label": "$3000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "3000"
+                          },
+                          {
+                            "id": "4",
+                            "label": "$4000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "4000"
+                          },
+                          {
+                            "id": "5",
+                            "label": "$5000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "5000"
+                          },
+                          {
+                            "id": "6",
+                            "label": "$10,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "10000"
+                          },
+                          {
+                            "id": "7",
+                            "label": "$15,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "15000"
+                          },
+                          {
+                            "id": "8",
+                            "label": "$20,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "20000"
+                          },
+                          {
+                            "id": "9",
+                            "label": "$25,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "25000"
+                          }
+                        ],
+                        "userValues": "1000"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 1,
+            "Price": 5,
+            "Id": "01t1I000000J2ZCQA0",
+            "Name": "Guest Medical",
+            "Description": "Guest Medical Coverage",
+            "ProductCode": "Y",
+            "Type__c": "Renters",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumCovY__premiumCovY",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZCQA0",
+            "pciId": "a2f1I000000MBBpQAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSQLUA2",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 3,
+              "records": [
+                {
+                  "displaySequence": 600,
+                  "Code__c": "DIAGNOSTICS",
+                  "Name": "Diagnostic Services",
+                  "id": "a1V1I000000I5ZkUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "HITECHIMAGINGIN",
+                        "dataType": "currency",
+                        "inputType": "dropdown",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": false,
+                        "attributeId": "a1W1I0000005ehiUAA",
+                        "label": "High-Tech Imaging In-Network",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "200",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 200
+                          },
+                          {
+                            "id": "1",
+                            "label": "400",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 400
+                          },
+                          {
+                            "id": "2",
+                            "label": "500",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 500
+                          }
+                        ],
+                        "userValues": 500
+                      }
+                    ]
+                  }
+                },
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitCovY",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehKUAQ",
+                        "label": "Limit - Guest Medical (Y)",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "$2,500",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "2500"
+                          },
+                          {
+                            "id": "1",
+                            "label": "$5,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "5000"
+                          }
+                        ],
+                        "userValues": "2500"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "displaySequence": 21,
+                  "Code__c": "MAT",
+                  "Name": "Maternity",
+                  "id": "a1V1I000000I5ZlUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "ATTRIBUTE-082",
+                        "dataType": "currency",
+                        "inputType": "dropdown",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": false,
+                        "attributeId": "a1W1I0000005ehsUAA",
+                        "label": "Prenatal Visits In Network",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "100",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "100"
+                          }
+                        ],
+                        "userValues": 100
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 1,
+            "Price": 27,
+            "Id": "01t1I000000J2ZJQA0",
+            "Name": "Family Liability",
+            "Description": "Family Liability Coverage",
+            "ProductCode": "X",
+            "Type__c": "Renters",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumCovX__premiumCovX",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZJQA0",
+            "pciId": "a2f1I000000MBBwQAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSQBUA2",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitCovX",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehJUAQ",
+                        "label": "Limit - Family Liability (X)",
+                        "displaySequence": 1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "$200,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "200000"
+                          },
+                          {
+                            "id": "1",
+                            "label": "$250,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "250000"
+                          },
+                          {
+                            "id": "2",
+                            "label": "$300,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "300000"
+                          },
+                          {
+                            "id": "3",
+                            "label": "$500,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "500000"
+                          },
+                          {
+                            "id": "4",
+                            "label": "$1,000,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "1000000"
+                          }
+                        ],
+                        "userValues": "200000"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 1,
+            "Price": 4,
+            "Id": "01t1I000000J2ZHQA0",
+            "Name": "Camera",
+            "Family": "Personal Lines",
+            "ProductCode": "C",
+            "LineOfBusiness__c": "Property & Casualty",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumCamera__premiumCamera",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZHQA0",
+            "pciId": "a2f1I000000MBBuQAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSP6UAM",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 2,
+              "records": [
+                {
+                  "displaySequence": 20,
+                  "Code__c": "af87efea-1c9e-12e4-be9d-a7c7395ce3a0",
+                  "Name": "Output Price",
+                  "id": "a1V1I000000I5ZiUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "BASERATE",
+                        "dataType": "currency",
+                        "inputType": "number",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehRUAQ",
+                        "label": "Base Rate",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": 352
+                      }
+                    ]
+                  }
+                },
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitCamera",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehHUAQ",
+                        "label": "Limit - Camera",
+                        "displaySequence": 1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "0",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "0"
+                          },
+                          {
+                            "id": "1",
+                            "label": "$1000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "1000"
+                          },
+                          {
+                            "id": "2",
+                            "label": "$2000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "2000"
+                          },
+                          {
+                            "id": "3",
+                            "label": "$3000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "3000"
+                          },
+                          {
+                            "id": "4",
+                            "label": "$4000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "4000"
+                          },
+                          {
+                            "id": "5",
+                            "label": "$5000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "5000"
+                          },
+                          {
+                            "id": "6",
+                            "label": "$10,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "10000"
+                          },
+                          {
+                            "id": "7",
+                            "label": "$15,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "15000"
+                          },
+                          {
+                            "id": "8",
+                            "label": "$25,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "25000"
+                          }
+                        ],
+                        "userValues": "1000"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 1,
+            "Price": 14,
+            "Id": "01t1I000000J2ZFQA0",
+            "Name": "Business Property",
+            "Description": "Covers only business owned property.",
+            "ProductCode": "BP",
+            "Type__c": "Renters",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumBusProperty__premiumBusProp",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZFQA0",
+            "pciId": "a2f1I000000MBBsQAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSQGUA2",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1Q6F0000092gtyUAA",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitBusProperty",
+                        "dataType": "currency",
+                        "inputType": "dropdown",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1R6F00000JqZ3xUAF",
+                        "label": "Limit - Business Property (BP)",
+                        "displaySequence": 1,
+                        "hasRules": false,
+                        "values": [
+                          {
+                            "id": "6",
+                            "label": "$2500",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 2500
+                          },
+                          {
+                            "id": "7",
+                            "label": "$5000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 5000
+                          }
+                        ],
+                        "userValues": 2500
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 1,
+            "Id": "01t1I000000J2ZBQA0",
+            "Name": "Rental Unit",
+            "ProductCode": "rentDwelling",
+            "LineOfBusiness__c": "Property & Casualty",
+            "IsRecommended__c": false,
+            "RecordTypeName__c": "InsuredItemSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZBQA0",
+            "pciId": "a2f1I000000MBBoQAO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "attributeCategories": {
+              "totalSize": 2,
+              "records": [
+                {
+                  "displaySequence": 20,
+                  "Code__c": "af87efea-1c9e-12e4-be9d-a7c7395ce3a0",
+                  "Name": "Output Price",
+                  "id": "a1V1I000000I5ZiUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "BASERATE",
+                        "dataType": "currency",
+                        "inputType": "dropdown",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehRUAQ",
+                        "label": "Base Rate",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": 352
+                      }
+                    ]
+                  }
+                },
+                {
+                  "displaySequence": 254,
+                  "Code__c": "Dwell",
+                  "Name": "Dwelling",
+                  "id": "a1V1I000000I5ZjUAK",
+                  "productAttributes": {
+                    "totalSize": 14,
+                    "records": [
+                      {
+                        "code": "dwBuildingAge",
+                        "dataType": "number",
+                        "inputType": "number",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehfUAA",
+                        "label": "Building Age",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwBurglarAlarm",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehZUAQ",
+                        "label": "Burglar Alarm",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "Yes",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "true"
+                          },
+                          {
+                            "id": "1",
+                            "label": "No",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "false"
+                          }
+                        ],
+                        "userValues": "false"
+                      },
+                      {
+                        "code": "dwBusUse",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehYUAQ",
+                        "label": "Business Use",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "Manufacturing",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "mfg"
+                          },
+                          {
+                            "id": "1",
+                            "label": "Office or None",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "office"
+                          },
+                          {
+                            "id": "2",
+                            "label": "Other",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "other"
+                          },
+                          {
+                            "id": "3",
+                            "label": "Repairs",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "repair"
+                          },
+                          {
+                            "id": "4",
+                            "label": "Teaching, including Personal Training",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "teach"
+                          }
+                        ],
+                        "userValues": "office"
+                      },
+                      {
+                        "code": "dwCentralAlarm",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehcUAA",
+                        "label": "Central Alarm",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "Yes",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "true"
+                          },
+                          {
+                            "id": "1",
+                            "label": "No",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "false"
+                          }
+                        ],
+                        "userValues": "false"
+                      },
+                      {
+                        "code": "dwCentralFire",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehdUAA",
+                        "label": "Central Fire",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "Yes",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "true"
+                          },
+                          {
+                            "id": "1",
+                            "label": "No",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "false"
+                          }
+                        ],
+                        "userValues": "false"
+                      },
+                      {
+                        "code": "dwCity",
+                        "dataType": "text",
+                        "inputType": "text",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehVUAQ",
+                        "label": "City",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwCountry",
+                        "dataType": "text",
+                        "inputType": "text",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehXUAQ",
+                        "label": "Country",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwDeadBolt",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehaUAA",
+                        "label": "Dead Bolt",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "Yes",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "true"
+                          },
+                          {
+                            "id": "1",
+                            "label": "No",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "false"
+                          }
+                        ],
+                        "userValues": "false"
+                      },
+                      {
+                        "code": "dwDistanceFire",
+                        "dataType": "number",
+                        "inputType": "number",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehgUAA",
+                        "label": "Distance from Fire Station",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwPostalCode",
+                        "dataType": "text",
+                        "inputType": "text",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehWUAQ",
+                        "label": "Postal Code",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwSmokeDetector",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehbUAA",
+                        "label": "Smoke Detector",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "Yes",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "true"
+                          },
+                          {
+                            "id": "1",
+                            "label": "No",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "false"
+                          }
+                        ],
+                        "userValues": "false"
+                      },
+                      {
+                        "code": "dwStreet",
+                        "dataType": "text",
+                        "inputType": "text",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehTUAQ",
+                        "label": "Street",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwTerritory",
+                        "dataType": "number",
+                        "inputType": "number",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005eheUAA",
+                        "label": "Territory",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwUnit",
+                        "dataType": "text",
+                        "inputType": "text",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehUUAQ",
+                        "label": "Unit",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "attributeCategories": {
+        "totalSize": 1,
+        "records": [
+          {
+            "displaySequence": 1500,
+            "Code__c": "Coverage Info",
+            "Name": "Coverages and Limits of Liability",
+            "id": "a1V1I000000I5ZhUAK",
+            "productAttributes": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "code": "amountDeductible",
+                  "dataType": "currency",
+                  "inputType": "dropdown",
+                  "required": false,
+                  "readonly": false,
+                  "disabled": false,
+                  "filterable": true,
+                  "attributeId": "a1W1I0000005ehDUAQ",
+                  "label": "Property Deductible",
+                  "displaySequence": -1,
+                  "hasRules": false,
+                  "hidden": false,
+                  "values": [
+                    {
+                      "id": "0",
+                      "label": "50",
+                      "readonly": false,
+                      "disabled": false,
+                      "value": 50
+                    },
+                    {
+                      "id": "1",
+                      "label": "100",
+                      "readonly": false,
+                      "disabled": false,
+                      "value": 100
+                    },
+                    {
+                      "id": "2",
+                      "label": "500",
+                      "readonly": false,
+                      "disabled": false,
+                      "value": 500
+                    },
+                    {
+                      "id": "3",
+                      "label": "1000",
+                      "readonly": false,
+                      "disabled": false,
+                      "value": 1000
+                    },
+                    {
+                      "id": "4",
+                      "label": "2500",
+                      "readonly": false,
+                      "disabled": false,
+                      "value": 2500
+                    }
+                  ],
+                  "userValues": 50
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "displaySequence": -1,
+      "CalculatedPriceData": {
+        "monthlyPremium": 23.5,
+        "totalPremium": 282,
+        "premiumSports__premiumSports": 4,
+        "premiumMusicInst__premiumMusicInst": 2,
+        "premiumCamera__premiumCamera": 4,
+        "premiumJewelry__premiumJewelry": "3",
+        "netPremium": 269,
+        "multilineDiscountValue": 30,
+        "adjustPremium": 299,
+        "BasePremium": 352,
+        "premiumBusProperty__premiumBusProp": 14,
+        "premiumBusUse__premiumBusinessUse": 6,
+        "premiumCovY__premiumCovY": 5,
+        "premiumCovX__premiumCovX": 27,
+        "premiumCoverageC": 300,
+        "ID": "0"
+      },
+      "Id": "01t1I000000J2ZQQA0",
+      "Name": "Superior Renters",
+      "Description": "Superior Renters product description goes here.",
+      "ProductCode": "Rent-SUPER",
+      "LineOfBusiness__c": "Property & Casualty",
+      "Type__c": "Renters",
+      "IsRecommended__c": false,
+      "PricingSource__c": "premiumMusicInst__premiumMusicInst",
+      "RecordTypeName__c": "Product",
+      "IsConfigurable__c": true,
+      "PricingFormula__c": "netPremium + premiumCamera__premiumCamera + premiumMusicInst__premiumMusicInst + premiumSports__premiumSports + premiumJewelry__premiumJewelry",
+      "productId": "01t1I000000J2ZQQA0",
+      "Price": 271,
+      "childProducts": {
+        "totalSize": 9,
+        "records": [
+          {
+            "displaySequence": 2,
+            "Price": 4,
+            "Id": "01t1I000000J2ZIQA0",
+            "Name": "Sporting Goods",
+            "Family": "Personal Lines",
+            "ProductCode": "S",
+            "LineOfBusiness__c": "Property & Casualty",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumSports__premiumSports",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZIQA0",
+            "pciId": "a2f1I000000MBC0QAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSPwUAM",
+            "isOptional": true,
+            "isSelected": false,
+            "attributeCategories": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitSports",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehGUAQ",
+                        "label": "Limit - Sporting Goods",
+                        "displaySequence": 1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "$0",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "0"
+                          },
+                          {
+                            "id": "1",
+                            "label": "$1000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "1000"
+                          },
+                          {
+                            "id": "2",
+                            "label": "$2000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "2000"
+                          },
+                          {
+                            "id": "3",
+                            "label": "$3000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "3000"
+                          },
+                          {
+                            "id": "4",
+                            "label": "$4000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "4000"
+                          },
+                          {
+                            "id": "5",
+                            "label": "$5000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "5000"
+                          },
+                          {
+                            "id": "6",
+                            "label": "$10,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "10000"
+                          },
+                          {
+                            "id": "7",
+                            "label": "$25,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "25000"
+                          },
+                          {
+                            "id": "8",
+                            "label": "$50,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "50000"
+                          }
+                        ],
+                        "userValues": "1000"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 1,
+            "Price": 300,
+            "Id": "01t1I000000J2ZGQA0",
+            "Name": "Personal Property",
+            "Description": "Family Liability Coverage",
+            "ProductCode": "PP",
+            "Type__c": "Renters",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumCoverageC",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZGQA0",
+            "pciId": "a2f1I000000MBBzQAO",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitCoverageC",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005eh9UAA",
+                        "label": "Coverage C - Personal Property",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "$10,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "10000"
+                          },
+                          {
+                            "id": "1",
+                            "label": "$25,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "25000"
+                          },
+                          {
+                            "id": "2",
+                            "label": "$50,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "50000"
+                          },
+                          {
+                            "id": "3",
+                            "label": "$100,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "100000"
+                          },
+                          {
+                            "id": "4",
+                            "label": "$150,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "150000"
+                          },
+                          {
+                            "id": "5",
+                            "label": "$200,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "200000"
+                          }
+                        ],
+                        "userValues": "200000"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 9,
+            "Price": 2,
+            "Id": "01t1I000000J2ZEQA0",
+            "Name": "Musical Instrument",
+            "Family": "Personal Lines",
+            "ProductCode": "MI",
+            "LineOfBusiness__c": "Property & Casualty",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumMusicInst__premiumMusicInst",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZEQA0",
+            "pciId": "a2f1I000000MBBxQAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSPrUAM",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitMusicInst",
+                        "dataType": "currency",
+                        "inputType": "dropdown",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehFUAQ",
+                        "label": "Limit - Musical Instruments",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "$1000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 1000
+                          },
+                          {
+                            "id": "1",
+                            "label": "$2000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 2000
+                          },
+                          {
+                            "id": "2",
+                            "label": "$3000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 3000
+                          },
+                          {
+                            "id": "3",
+                            "label": "$4000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 4000
+                          },
+                          {
+                            "id": "4",
+                            "label": "$5000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 5000
+                          },
+                          {
+                            "id": "5",
+                            "label": "$10,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 10000
+                          },
+                          {
+                            "id": "6",
+                            "label": "$25,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 25000
+                          },
+                          {
+                            "id": "7",
+                            "label": "$50,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 50000
+                          }
+                        ],
+                        "userValues": 1000
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 3,
+            "Price": "3",
+            "Id": "01t1I000000J2ZDQA0",
+            "Name": "Jewelry",
+            "Family": "Personal Lines",
+            "ProductCode": "J",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumJewelry__premiumJewelry",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZDQA0",
+            "pciId": "a2f1I000000MBC1QAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSQ1UAM",
+            "isOptional": true,
+            "isSelected": false,
+            "attributeCategories": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitJewelry",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehIUAQ",
+                        "label": "Limit - Jewelry",
+                        "displaySequence": 1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "0",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "0"
+                          },
+                          {
+                            "id": "1",
+                            "label": "$1000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "1000"
+                          },
+                          {
+                            "id": "2",
+                            "label": "$2000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "2000"
+                          },
+                          {
+                            "id": "3",
+                            "label": "$3000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "3000"
+                          },
+                          {
+                            "id": "4",
+                            "label": "$4000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "4000"
+                          },
+                          {
+                            "id": "5",
+                            "label": "$5000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "5000"
+                          },
+                          {
+                            "id": "6",
+                            "label": "$10,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "10000"
+                          },
+                          {
+                            "id": "7",
+                            "label": "$15,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "15000"
+                          },
+                          {
+                            "id": "8",
+                            "label": "$20,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "20000"
+                          },
+                          {
+                            "id": "9",
+                            "label": "$25,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "25000"
+                          }
+                        ],
+                        "userValues": "1000"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 8,
+            "Price": 5,
+            "Id": "01t1I000000J2ZCQA0",
+            "Name": "Guest Medical",
+            "Description": "Guest Medical Coverage",
+            "ProductCode": "Y",
+            "Type__c": "Renters",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumCovY__premiumCovY",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZCQA0",
+            "pciId": "a2f1I000000MBC5QAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSQLUA2",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 3,
+              "records": [
+                {
+                  "displaySequence": 600,
+                  "Code__c": "DIAGNOSTICS",
+                  "Name": "Diagnostic Services",
+                  "id": "a1V1I000000I5ZkUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "HITECHIMAGINGIN",
+                        "dataType": "currency",
+                        "inputType": "dropdown",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": false,
+                        "attributeId": "a1W1I0000005ehiUAA",
+                        "label": "High-Tech Imaging In-Network",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "200",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 200
+                          },
+                          {
+                            "id": "1",
+                            "label": "400",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 400
+                          },
+                          {
+                            "id": "2",
+                            "label": "500",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 500
+                          }
+                        ],
+                        "userValues": 500
+                      }
+                    ]
+                  }
+                },
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitCovY",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehKUAQ",
+                        "label": "Limit - Guest Medical (Y)",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "$2,500",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "2500"
+                          },
+                          {
+                            "id": "1",
+                            "label": "$5,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "5000"
+                          }
+                        ],
+                        "userValues": "2500"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "displaySequence": 21,
+                  "Code__c": "MAT",
+                  "Name": "Maternity",
+                  "id": "a1V1I000000I5ZlUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "ATTRIBUTE-082",
+                        "dataType": "currency",
+                        "inputType": "dropdown",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": false,
+                        "attributeId": "a1W1I0000005ehsUAA",
+                        "label": "Prenatal Visits In Network",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "100",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "100"
+                          }
+                        ],
+                        "userValues": 100
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 6,
+            "Price": 27,
+            "Id": "01t1I000000J2ZJQA0",
+            "Name": "Family Liability",
+            "Description": "Family Liability Coverage",
+            "ProductCode": "X",
+            "Type__c": "Renters",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumCovX__premiumCovX",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZJQA0",
+            "pciId": "a2f1I000000MBC3QAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSQBUA2",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitCovX",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehJUAQ",
+                        "label": "Limit - Family Liability (X)",
+                        "displaySequence": 1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "$200,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "200000"
+                          },
+                          {
+                            "id": "1",
+                            "label": "$250,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "250000"
+                          },
+                          {
+                            "id": "2",
+                            "label": "$300,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "300000"
+                          },
+                          {
+                            "id": "3",
+                            "label": "$500,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "500000"
+                          },
+                          {
+                            "id": "4",
+                            "label": "$1,000,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "1000000"
+                          }
+                        ],
+                        "userValues": "200000"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 4,
+            "Price": 4,
+            "Id": "01t1I000000J2ZHQA0",
+            "Name": "Camera",
+            "Family": "Personal Lines",
+            "ProductCode": "C",
+            "LineOfBusiness__c": "Property & Casualty",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumCamera__premiumCamera",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZHQA0",
+            "pciId": "a2f1I000000MBC2QAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSP6UAM",
+            "isOptional": true,
+            "isSelected": false,
+            "attributeCategories": {
+              "totalSize": 2,
+              "records": [
+                {
+                  "displaySequence": 20,
+                  "Code__c": "af87efea-1c9e-12e4-be9d-a7c7395ce3a0",
+                  "Name": "Output Price",
+                  "id": "a1V1I000000I5ZiUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "BASERATE",
+                        "dataType": "currency",
+                        "inputType": "number",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehRUAQ",
+                        "label": "Base Rate",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": 352
+                      }
+                    ]
+                  }
+                },
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1V1I000000I5ZhUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitCamera",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehHUAQ",
+                        "label": "Limit - Camera",
+                        "displaySequence": 1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "0",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "0"
+                          },
+                          {
+                            "id": "1",
+                            "label": "$1000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "1000"
+                          },
+                          {
+                            "id": "2",
+                            "label": "$2000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "2000"
+                          },
+                          {
+                            "id": "3",
+                            "label": "$3000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "3000"
+                          },
+                          {
+                            "id": "4",
+                            "label": "$4000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "4000"
+                          },
+                          {
+                            "id": "5",
+                            "label": "$5000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "5000"
+                          },
+                          {
+                            "id": "6",
+                            "label": "$10,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "10000"
+                          },
+                          {
+                            "id": "7",
+                            "label": "$15,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "15000"
+                          },
+                          {
+                            "id": "8",
+                            "label": "$25,000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "25000"
+                          }
+                        ],
+                        "userValues": "1000"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 7,
+            "Price": 14,
+            "Id": "01t1I000000J2ZFQA0",
+            "Name": "Business Property",
+            "Description": "Covers only business owned property.",
+            "ProductCode": "BP",
+            "Type__c": "Renters",
+            "IsRecommended__c": false,
+            "PricingSource__c": "premiumBusProperty__premiumBusProp",
+            "RecordTypeName__c": "CoverageSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZFQA0",
+            "pciId": "a2f1I000000MBC4QAO",
+            "ImageId": "/servlet/servlet.FileDownload?file=00P1I000000dSQGUA2",
+            "isOptional": false,
+            "isSelected": true,
+            "attributeCategories": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "displaySequence": 1500,
+                  "Code__c": "Coverage Info",
+                  "Name": "Coverages and Limits of Liability",
+                  "id": "a1Q6F0000092gtyUAA",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "limitBusProperty",
+                        "dataType": "currency",
+                        "inputType": "dropdown",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1R6F00000JqZ3xUAF",
+                        "label": "Limit - Business Property (BP)",
+                        "displaySequence": 1,
+                        "hasRules": false,
+                        "values": [
+                          {
+                            "id": "6",
+                            "label": "$2500",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 2500
+                          },
+                          {
+                            "id": "7",
+                            "label": "$5000",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": 5000
+                          }
+                        ],
+                        "userValues": 2500
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "displaySequence": 10,
+            "Id": "01t1I000000J2ZBQA0",
+            "Name": "Rental Unit",
+            "ProductCode": "rentDwelling",
+            "LineOfBusiness__c": "Property & Casualty",
+            "IsRecommended__c": false,
+            "RecordTypeName__c": "InsuredItemSpec",
+            "IsConfigurable__c": true,
+            "productId": "01t1I000000J2ZBQA0",
+            "pciId": "a2f1I000000MBByQAO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "attributeCategories": {
+              "totalSize": 2,
+              "records": [
+                {
+                  "displaySequence": 20,
+                  "Code__c": "af87efea-1c9e-12e4-be9d-a7c7395ce3a0",
+                  "Name": "Output Price",
+                  "id": "a1V1I000000I5ZiUAK",
+                  "productAttributes": {
+                    "totalSize": 1,
+                    "records": [
+                      {
+                        "code": "BASERATE",
+                        "dataType": "currency",
+                        "inputType": "dropdown",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehRUAQ",
+                        "label": "Base Rate",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": 352
+                      }
+                    ]
+                  }
+                },
+                {
+                  "displaySequence": 254,
+                  "Code__c": "Dwell",
+                  "Name": "Dwelling",
+                  "id": "a1V1I000000I5ZjUAK",
+                  "productAttributes": {
+                    "totalSize": 14,
+                    "records": [
+                      {
+                        "code": "dwBuildingAge",
+                        "dataType": "number",
+                        "inputType": "number",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehfUAA",
+                        "label": "Building Age",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwBurglarAlarm",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehZUAQ",
+                        "label": "Burglar Alarm",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "Yes",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "true"
+                          },
+                          {
+                            "id": "1",
+                            "label": "No",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "false"
+                          }
+                        ],
+                        "userValues": "false"
+                      },
+                      {
+                        "code": "dwBusUse",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehYUAQ",
+                        "label": "Business Use",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "Manufacturing",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "mfg"
+                          },
+                          {
+                            "id": "1",
+                            "label": "Office or None",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "office"
+                          },
+                          {
+                            "id": "2",
+                            "label": "Other",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "other"
+                          },
+                          {
+                            "id": "3",
+                            "label": "Repairs",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "repair"
+                          },
+                          {
+                            "id": "4",
+                            "label": "Teaching, including Personal Training",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "teach"
+                          }
+                        ],
+                        "userValues": "office"
+                      },
+                      {
+                        "code": "dwCentralAlarm",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehcUAA",
+                        "label": "Central Alarm",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "Yes",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "true"
+                          },
+                          {
+                            "id": "1",
+                            "label": "No",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "false"
+                          }
+                        ],
+                        "userValues": "false"
+                      },
+                      {
+                        "code": "dwCentralFire",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehdUAA",
+                        "label": "Central Fire",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "Yes",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "true"
+                          },
+                          {
+                            "id": "1",
+                            "label": "No",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "false"
+                          }
+                        ],
+                        "userValues": "false"
+                      },
+                      {
+                        "code": "dwCity",
+                        "dataType": "text",
+                        "inputType": "text",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehVUAQ",
+                        "label": "City",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwCountry",
+                        "dataType": "text",
+                        "inputType": "text",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehXUAQ",
+                        "label": "Country",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwDeadBolt",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehaUAA",
+                        "label": "Dead Bolt",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "Yes",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "true"
+                          },
+                          {
+                            "id": "1",
+                            "label": "No",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "false"
+                          }
+                        ],
+                        "userValues": "false"
+                      },
+                      {
+                        "code": "dwDistanceFire",
+                        "dataType": "number",
+                        "inputType": "number",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehgUAA",
+                        "label": "Distance from Fire Station",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwPostalCode",
+                        "dataType": "text",
+                        "inputType": "text",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehWUAQ",
+                        "label": "Postal Code",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwSmokeDetector",
+                        "dataType": "text",
+                        "inputType": "dropdown",
+                        "multiselect": false,
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehbUAA",
+                        "label": "Smoke Detector",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "id": "0",
+                            "label": "Yes",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "true"
+                          },
+                          {
+                            "id": "1",
+                            "label": "No",
+                            "readonly": false,
+                            "disabled": false,
+                            "value": "false"
+                          }
+                        ],
+                        "userValues": "false"
+                      },
+                      {
+                        "code": "dwStreet",
+                        "dataType": "text",
+                        "inputType": "text",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehTUAQ",
+                        "label": "Street",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwTerritory",
+                        "dataType": "number",
+                        "inputType": "number",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005eheUAA",
+                        "label": "Territory",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      },
+                      {
+                        "code": "dwUnit",
+                        "dataType": "text",
+                        "inputType": "text",
+                        "required": false,
+                        "readonly": false,
+                        "disabled": false,
+                        "filterable": true,
+                        "attributeId": "a1W1I0000005ehUUAQ",
+                        "label": "Unit",
+                        "displaySequence": -1,
+                        "hasRules": false,
+                        "hidden": false,
+                        "values": [
+                          {
+                            "readonly": false,
+                            "disabled": false
+                          }
+                        ],
+                        "userValues": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "attributeCategories": {
+        "totalSize": 1,
+        "records": [
+          {
+            "displaySequence": 1500,
+            "Code__c": "Coverage Info",
+            "Name": "Coverages and Limits of Liability",
+            "id": "a1V1I000000I5ZhUAK",
+            "productAttributes": {
+              "totalSize": 1,
+              "records": [
+                {
+                  "code": "amountDeductible",
+                  "dataType": "currency",
+                  "inputType": "dropdown",
+                  "required": false,
+                  "readonly": false,
+                  "disabled": false,
+                  "filterable": true,
+                  "attributeId": "a1W1I0000005ehDUAQ",
+                  "label": "Property Deductible",
+                  "displaySequence": -1,
+                  "hasRules": false,
+                  "hidden": false,
+                  "values": [
+                    {
+                      "id": "0",
+                      "label": "50",
+                      "readonly": false,
+                      "disabled": false,
+                      "value": 50
+                    },
+                    {
+                      "id": "1",
+                      "label": "100",
+                      "readonly": false,
+                      "disabled": false,
+                      "value": 100
+                    },
+                    {
+                      "id": "2",
+                      "label": "500",
+                      "readonly": false,
+                      "disabled": false,
+                      "value": 500
+                    },
+                    {
+                      "id": "3",
+                      "label": "1000",
+                      "readonly": false,
+                      "disabled": false,
+                      "value": 1000
+                    },
+                    {
+                      "id": "4",
+                      "label": "2500",
+                      "readonly": false,
+                      "disabled": false,
+                      "value": 2500
+                    }
+                  ],
+                  "userValues": 1000
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
