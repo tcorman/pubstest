@@ -1,2 +1,311 @@
-
-{"warnings":{"b126c4bf902ef9f0749848c542cd3b8c":[{"VlocityPrimarySourceId":null,"VlocityPreviousPageKey":null,"VlocityMultiPackParentKey":null,"VlocityDepthFromPrimary":0,"VlocityDataPackType":"Apex Class","VlocityDataPackStatus":"Not Included","VlocityDataPackRelationshipType":"Metadata","VlocityDataPackRecords":null,"VlocityDataPackParents":[],"VlocityDataPackName":"ScheduleAppointmentService","VlocityDataPackMessage":"Apex Class Export Not Supported","VlocityDataPackLabel":"Apex Class","VlocityDataPackKey":"b126c4bf902ef9f0749848c542cd3b8c","VlocityDataPackIsNotSupported":false,"VlocityDataPackIsIncluded":true,"VlocityDataPackData":null,"VlocityDataPackAllRelationships":{"d0096b5855ade7b1e94f1977c4d64bbb":"Reference by Salesforce Id"},"DataPackAttachmentSize":1013,"DataPackAttachmentParentId":"a0x1R000004SHOEQA4","DataPackAttachmentId":"00P1R00000d3YAyUAM","ActivationStatus":"NA"}]},"useVlocityTriggers":true,"status":"Complete","processMultiple":true,"primaryDataPackType":"OmniScript","primaryDataPackKey":"d0096b5855ade7b1e94f1977c4d64bbb","maxDepth":-1,"isChunked":false,"ignoreAllErrors":false,"dataPacks":[{"VlocityPrimarySourceId":"a1A36000000DrO1EAK","VlocityPreviousPageKey":null,"VlocityMultiPackParentKey":null,"VlocityDepthFromPrimary":0,"VlocityDataPackType":"OmniScript","VlocityDataPackStatus":"Success","VlocityDataPackRelationshipType":"Primary","VlocityDataPackRecords":[],"VlocityDataPackParents":[],"VlocityDataPackName":"Chatter Message","VlocityDataPackMessage":null,"VlocityDataPackLabel":"OmniScript","VlocityDataPackKey":"d0096b5855ade7b1e94f1977c4d64bbb","VlocityDataPackIsNotSupported":false,"VlocityDataPackIsIncluded":true,"VlocityDataPackData":{"VlocityDataPackRelationshipType":"Primary","VlocityDataPackKey":"d0096b5855ade7b1e94f1977c4d64bbb","VlocityDataPackLabel":"OmniScript","VlocityDataPackType":"OmniScript","Id":"a1A36000000DrO1EAK","%vlocity_namespace%__OmniScript__c":[{"VlocityRecordSObjectType":"%vlocity_namespace%__OmniScript__c","VlocityDataPackType":"SObject","VlocityRecordSourceKey":"VlocityRecordSourceKey:a1A36000000DrO1EAK","VlocityDataPackIsIncluded":true,"Name":"Chatter Message","%vlocity_namespace%__AdditionalInformation__c":"","%vlocity_namespace%__CustomJavaScript__c":"","%vlocity_namespace%__DataRaptorBundleId__c":"","%vlocity_namespace%__IsActive__c":true,"%vlocity_namespace%__IsReusable__c":false,"%vlocity_namespace%__Language__c":"English","%vlocity_namespace%__PropertySet__c":"{\"persistentComponent\":[{\"render\":false,\"label\":\"\",\"remoteClass\":\"\",\"remoteMethod\":\"\",\"remoteTimeout\":30000,\"remoteOptions\":{\"preTransformBundle\":\"\",\"postTransformBundle\":\"\"},\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"id\":\"vlcCart\",\"itemsKey\":\"cartItems\",\"modalConfigurationSetting\":{\"modalHTMLTemplateId\":\"vlcProductConfig.html\",\"modalController\":\"ModalProductCtrl\",\"modalSize\":\"lg\"},\"sendJSONPath\":\"\",\"sendJSONNode\":\"\",\"responseJSONPath\":\"\",\"responseJSONNode\":\"\"},{\"render\":false,\"label\":\"\",\"remoteClass\":\"\",\"remoteMethod\":\"\",\"remoteTimeout\":30000,\"remoteOptions\":{\"preTransformBundle\":\"\",\"postTransformBundle\":\"\"},\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"id\":\"vlcKnowledge\",\"itemsKey\":\"knowledgeItems\",\"modalConfigurationSetting\":{\"modalHTMLTemplateId\":\"\",\"modalController\":\"\",\"modalSize\":\"lg\"}}],\"allowSaveForLater\":true,\"saveNameTemplate\":null,\"saveExpireInDays\":null,\"saveForLaterRedirectPageName\":\"sflRedirect\",\"saveForLaterRedirectTemplateUrl\":\"vlcSaveForLaterAcknowledge.html\",\"saveContentEncoded\":false,\"autoSaveOnStepNext\":false,\"elementTypeToHTMLTemplateMapping\":{},\"seedDataJSON\":{},\"enableKnowledge\":false,\"knowledgeArticleTypeQueryFieldsMap\":{},\"timeTracking\":true,\"includeCustomization\":true}","%vlocity_namespace%__SubType__c":"ChatterMessage","%vlocity_namespace%__TestHTMLTemplates__c":"","%vlocity_namespace%__Type__c":"Tenant","%vlocity_namespace%__Version__c":1,"Id":"a1A36000000DrO1EAK","LastViewedDate":"2018-11-30T19:04:23.000Z","LastReferencedDate":"2018-11-30T19:04:23.000Z","%vlocity_namespace%__Element__c":[{"VlocityRecordSObjectType":"%vlocity_namespace%__Element__c","VlocityDataPackType":"SObject","VlocityRecordSourceKey":"VlocityRecordSourceKey:a1736000000PsLVAA0","VlocityDataPackIsIncluded":true,"Name":"ProviderId","%vlocity_namespace%__OmniScriptId__c":{"Name":"Chatter Message","VlocityRecordSObjectType":"%vlocity_namespace%__OmniScript__c","VlocityDataPackType":"VlocityMatchingKeyObject","VlocityMatchingRecordSourceKey":"VlocityRecordSourceKey:a1A36000000DrO1EAK"},"%vlocity_namespace%__Active__c":true,"%vlocity_namespace%__Level__c":0,"%vlocity_namespace%__Order__c":1,"%vlocity_namespace%__ParentElementId__c":"","%vlocity_namespace%__PropertySet__c":"{\"show\":null,\"label\":\"ProviderId\",\"controlWidth\":12,\"remoteClass\":\"ScheduleAppointmentService\",\"remoteMethod\":\"getProviderId\",\"remoteOptions\":{\"preTransformBundle\":\"\",\"postTransformBundle\":\"\"},\"remoteTimeout\":30000,\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"inProgressMessage\":\"In Progress\",\"postMessage\":\"Done\",\"failureNextLabel\":\"Continue\",\"failureAbortLabel\":\"Abort\",\"failureAbortMessage\":\"Are you sure?\",\"validationRequired\":\"None\",\"redirectPageName\":\"\",\"redirectTemplateUrl\":\"vlcAcknowledge.html\",\"redirectNextLabel\":\"Next\",\"redirectNextWidth\":3,\"redirectPreviousLabel\":\"Previous\",\"redirectPreviousWidth\":3,\"showPersistentComponent\":[false,false]}","%vlocity_namespace%__SearchKey__c":"","%vlocity_namespace%__Type__c":"Remote Action","%vlocity_namespace%__InternalNotes__c":"","Id":"a1736000000PsLVAA0","%vlocity_namespace%__OmniScriptVersion__c":1,"%vlocity_namespace%__ReusableOmniScript__c":false},{"VlocityRecordSObjectType":"%vlocity_namespace%__Element__c","VlocityDataPackType":"SObject","VlocityRecordSourceKey":"VlocityRecordSourceKey:a1736000000PsLWAA0","VlocityDataPackIsIncluded":true,"Name":"NewMessage","%vlocity_namespace%__OmniScriptId__c":{"Name":"Chatter Message","VlocityRecordSObjectType":"%vlocity_namespace%__OmniScript__c","VlocityDataPackType":"VlocityMatchingKeyObject","VlocityMatchingRecordSourceKey":"VlocityRecordSourceKey:a1A36000000DrO1EAK"},"%vlocity_namespace%__Active__c":true,"%vlocity_namespace%__Level__c":0,"%vlocity_namespace%__Order__c":2,"%vlocity_namespace%__ParentElementId__c":"","%vlocity_namespace%__PropertySet__c":"{\"show\":null,\"label\":\"New Message\",\"validationRequired\":true,\"previousLabel\":\"Previous\",\"previousWidth\":3,\"nextLabel\":\"Next\",\"nextWidth\":3,\"cancelLabel\":\"Cancel\",\"cancelMessage\":\"Are you sure?\",\"saveLabel\":\"Save for later\",\"saveMessage\":\"Are you sure you want to save it for later?\",\"completeLabel\":\"Complete\",\"completeMessage\":\"Are you sure you want to complete the script?\",\"instruction\":\"\",\"showPersistentComponent\":[false,false],\"remoteClass\":\"\",\"remoteMethod\":\"\",\"remoteTimeout\":30000,\"remoteOptions\":{},\"knowledgeOptions\":{\"language\":\"English\",\"publishStatus\":\"Online\",\"keyword\":\"\",\"dataCategoryCriteria\":\"\",\"remoteTimeout\":30000},\"conditionType\":\"Hide if False\"}","%vlocity_namespace%__SearchKey__c":"","%vlocity_namespace%__Type__c":"Step","%vlocity_namespace%__InternalNotes__c":"","Id":"a1736000000PsLWAA0","%vlocity_namespace%__OmniScriptVersion__c":1,"%vlocity_namespace%__ReusableOmniScript__c":false},{"VlocityRecordSObjectType":"%vlocity_namespace%__Element__c","VlocityDataPackType":"SObject","VlocityRecordSourceKey":"VlocityRecordSourceKey:a1736000000PsLbAAK","VlocityDataPackIsIncluded":true,"Name":"Message","%vlocity_namespace%__OmniScriptId__c":{"Name":"Chatter Message","VlocityRecordSObjectType":"%vlocity_namespace%__OmniScript__c","VlocityDataPackType":"VlocityMatchingKeyObject","VlocityMatchingRecordSourceKey":"VlocityRecordSourceKey:a1A36000000DrO1EAK"},"%vlocity_namespace%__Active__c":true,"%vlocity_namespace%__Level__c":1,"%vlocity_namespace%__Order__c":2,"%vlocity_namespace%__ParentElementId__c":{"Name":"NewMessage","%vlocity_namespace%__OmniScriptId__c":"a1A36000000DrO1EAK","VlocityRecordSObjectType":"%vlocity_namespace%__Element__c","VlocityDataPackType":"VlocityMatchingKeyObject","VlocityMatchingRecordSourceKey":"VlocityRecordSourceKey:a1736000000PsLWAA0"},"%vlocity_namespace%__PropertySet__c":"{\"show\":null,\"label\":\"Message\",\"controlWidth\":12,\"required\":false,\"repeat\":false,\"repeatClone\":false,\"readOnly\":false,\"help\":false,\"helpText\":\"\",\"pattern\":\"\",\"ptrnErrText\":\"\",\"minLength\":0,\"maxLength\":1200,\"conditionType\":\"Hide if False\",\"debounceValue\":0,\"accessibleInFutureSteps\":false}","%vlocity_namespace%__SearchKey__c":"","%vlocity_namespace%__Type__c":"Text Area","%vlocity_namespace%__InternalNotes__c":"","Id":"a1736000000PsLbAAK","%vlocity_namespace%__OmniScriptVersion__c":1,"%vlocity_namespace%__ReusableOmniScript__c":false,"%vlocity_namespace%__ParentElementName__c":"NewMessage","%vlocity_namespace%__ParentElementType__c":"Step"},{"VlocityRecordSObjectType":"%vlocity_namespace%__Element__c","VlocityDataPackType":"SObject","VlocityRecordSourceKey":"VlocityRecordSourceKey:a1736000000PsLcAAK","VlocityDataPackIsIncluded":true,"Name":"Send to Provider","%vlocity_namespace%__OmniScriptId__c":{"Name":"Chatter Message","VlocityRecordSObjectType":"%vlocity_namespace%__OmniScript__c","VlocityDataPackType":"VlocityMatchingKeyObject","VlocityMatchingRecordSourceKey":"VlocityRecordSourceKey:a1A36000000DrO1EAK"},"%vlocity_namespace%__Active__c":true,"%vlocity_namespace%__Level__c":1,"%vlocity_namespace%__Order__c":3,"%vlocity_namespace%__ParentElementId__c":{"Name":"NewMessage","%vlocity_namespace%__OmniScriptId__c":"a1A36000000DrO1EAK","VlocityRecordSObjectType":"%vlocity_namespace%__Element__c","VlocityDataPackType":"VlocityMatchingKeyObject","VlocityMatchingRecordSourceKey":"VlocityRecordSourceKey:a1736000000PsLWAA0"},"%vlocity_namespace%__PropertySet__c":"{\"show\":{\"group\":{\"operator\":\"AND\",\"rules\":[{\"condition\":\"=\",\"field\":\"Who\",\"data\":\"Property Management\"}]}},\"label\":\"Send Message\",\"controlWidth\":3,\"remoteClass\":\"ScheduleAppointmentService\",\"remoteMethod\":\"sendChatterMessage\",\"remoteOptions\":{\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"UserId\":\"00536000001IAJU\",\"Message\":\"%Message%\"},\"remoteTimeout\":30000,\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"inProgressMessage\":\"In Progress\",\"postMessage\":\"Done\",\"failureNextLabel\":\"Continue\",\"failureAbortLabel\":\"Abort\",\"failureAbortMessage\":\"Are you sure?\",\"validationRequired\":\"Step\",\"redirectPageName\":\"\",\"redirectTemplateUrl\":\"vlcAcknowledge.html\",\"redirectNextLabel\":\"Next\",\"redirectNextWidth\":3,\"redirectPreviousLabel\":\"Previous\",\"redirectPreviousWidth\":3,\"showPersistentComponent\":[false,false]}","%vlocity_namespace%__SearchKey__c":"","%vlocity_namespace%__Type__c":"Remote Action","%vlocity_namespace%__InternalNotes__c":"","Id":"a1736000000PsLcAAK","%vlocity_namespace%__OmniScriptVersion__c":1,"%vlocity_namespace%__ReusableOmniScript__c":false,"%vlocity_namespace%__ParentElementName__c":"NewMessage","%vlocity_namespace%__ParentElementType__c":"Step"},{"VlocityRecordSObjectType":"%vlocity_namespace%__Element__c","VlocityDataPackType":"SObject","VlocityRecordSourceKey":"VlocityRecordSourceKey:a1736000000PsLdAAK","VlocityDataPackIsIncluded":true,"Name":"Success Messaging","%vlocity_namespace%__OmniScriptId__c":{"Name":"Chatter Message","VlocityRecordSObjectType":"%vlocity_namespace%__OmniScript__c","VlocityDataPackType":"VlocityMatchingKeyObject","VlocityMatchingRecordSourceKey":"VlocityRecordSourceKey:a1A36000000DrO1EAK"},"%vlocity_namespace%__Active__c":true,"%vlocity_namespace%__Level__c":1,"%vlocity_namespace%__Order__c":5,"%vlocity_namespace%__ParentElementId__c":{"Name":"NewMessage","%vlocity_namespace%__OmniScriptId__c":"a1A36000000DrO1EAK","VlocityRecordSObjectType":"%vlocity_namespace%__Element__c","VlocityDataPackType":"VlocityMatchingKeyObject","VlocityMatchingRecordSourceKey":"VlocityRecordSourceKey:a1736000000PsLWAA0"},"%vlocity_namespace%__PropertySet__c":"{\"show\":null,\"label\":null,\"controlWidth\":12,\"validateExpression\":{\"group\":{\"operator\":\"AND\",\"rules\":[{\"condition\":\"=\",\"field\":\"MessageSent\",\"data\":\"true\"}]}},\"messages\":[{\"value\":true,\"type\":\"Success\",\"text\":\"Thank you! Your message has been successfully sent.\",\"active\":true},{\"value\":false,\"type\":\"Success\",\"text\":\"\",\"active\":false}],\"hideLabel\":true}","%vlocity_namespace%__SearchKey__c":"","%vlocity_namespace%__Type__c":"Validation","%vlocity_namespace%__InternalNotes__c":"","Id":"a1736000000PsLdAAK","%vlocity_namespace%__OmniScriptVersion__c":1,"%vlocity_namespace%__ReusableOmniScript__c":false,"%vlocity_namespace%__ParentElementName__c":"NewMessage","%vlocity_namespace%__ParentElementType__c":"Step"},{"VlocityRecordSObjectType":"%vlocity_namespace%__Element__c","VlocityDataPackType":"SObject","VlocityRecordSourceKey":"VlocityRecordSourceKey:a1736000000QDWcAAO","VlocityDataPackIsIncluded":true,"Name":"Who","%vlocity_namespace%__OmniScriptId__c":{"Name":"Chatter Message","VlocityRecordSObjectType":"%vlocity_namespace%__OmniScript__c","VlocityDataPackType":"VlocityMatchingKeyObject","VlocityMatchingRecordSourceKey":"VlocityRecordSourceKey:a1A36000000DrO1EAK"},"%vlocity_namespace%__Active__c":true,"%vlocity_namespace%__Level__c":1,"%vlocity_namespace%__Order__c":1,"%vlocity_namespace%__ParentElementId__c":{"Name":"NewMessage","%vlocity_namespace%__OmniScriptId__c":"a1A36000000DrO1EAK","VlocityRecordSObjectType":"%vlocity_namespace%__Element__c","VlocityDataPackType":"VlocityMatchingKeyObject","VlocityMatchingRecordSourceKey":"VlocityRecordSourceKey:a1736000000PsLWAA0"},"%vlocity_namespace%__PropertySet__c":"{\"show\":null,\"label\":\"Who would you like to contact?\",\"controlWidth\":12,\"required\":false,\"repeat\":false,\"repeatClone\":false,\"readOnly\":false,\"help\":false,\"options\":[{\"name\":\"Property Management\",\"value\":\"Property Management\"},{\"name\":\"Region of Peel Housing\",\"value\":\"Region of Peel Housing\"}],\"optionSource\":{\"type\":\"\",\"source\":\"\"},\"controllingField\":{\"element\":\"\",\"type\":\"\",\"source\":\"\"},\"conditionType\":\"Hide if False\",\"accessibleInFutureSteps\":false}","%vlocity_namespace%__SearchKey__c":"","%vlocity_namespace%__Type__c":"Select","%vlocity_namespace%__InternalNotes__c":"","Id":"a1736000000QDWcAAO","%vlocity_namespace%__OmniScriptVersion__c":1,"%vlocity_namespace%__ReusableOmniScript__c":false,"%vlocity_namespace%__ParentElementName__c":"NewMessage","%vlocity_namespace%__ParentElementType__c":"Step"},{"VlocityRecordSObjectType":"%vlocity_namespace%__Element__c","VlocityDataPackType":"SObject","VlocityRecordSourceKey":"VlocityRecordSourceKey:a1736000000QDWhAAO","VlocityDataPackIsIncluded":true,"Name":"Send to Agency","%vlocity_namespace%__OmniScriptId__c":{"Name":"Chatter Message","VlocityRecordSObjectType":"%vlocity_namespace%__OmniScript__c","VlocityDataPackType":"VlocityMatchingKeyObject","VlocityMatchingRecordSourceKey":"VlocityRecordSourceKey:a1A36000000DrO1EAK"},"%vlocity_namespace%__Active__c":true,"%vlocity_namespace%__Level__c":1,"%vlocity_namespace%__Order__c":4,"%vlocity_namespace%__ParentElementId__c":{"Name":"NewMessage","%vlocity_namespace%__OmniScriptId__c":"a1A36000000DrO1EAK","VlocityRecordSObjectType":"%vlocity_namespace%__Element__c","VlocityDataPackType":"VlocityMatchingKeyObject","VlocityMatchingRecordSourceKey":"VlocityRecordSourceKey:a1736000000PsLWAA0"},"%vlocity_namespace%__PropertySet__c":"{\"show\":{\"group\":{\"operator\":\"AND\",\"rules\":[{\"condition\":\"=\",\"field\":\"Who\",\"data\":\"Region of Peel Housing\"}]}},\"label\":\"Send Message\",\"controlWidth\":3,\"remoteClass\":\"ScheduleAppointmentService\",\"remoteMethod\":\"sendChatterMessage\",\"remoteOptions\":{\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"UserId\":\"00536000000q8RS\",\"Message\":\"%Message%\"},\"remoteTimeout\":30000,\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"inProgressMessage\":\"In Progress\",\"postMessage\":\"Done\",\"failureNextLabel\":\"Continue\",\"failureAbortLabel\":\"Abort\",\"failureAbortMessage\":\"Are you sure?\",\"validationRequired\":\"Step\",\"redirectPageName\":\"\",\"redirectTemplateUrl\":\"vlcAcknowledge.html\",\"redirectNextLabel\":\"Next\",\"redirectNextWidth\":3,\"redirectPreviousLabel\":\"Previous\",\"redirectPreviousWidth\":3,\"showPersistentComponent\":[false,false],\"sendJSONPath\":\"\",\"sendJSONNode\":\"\",\"responseJSONPath\":\"\",\"responseJSONNode\":\"\"}","%vlocity_namespace%__SearchKey__c":"","%vlocity_namespace%__Type__c":"Remote Action","%vlocity_namespace%__InternalNotes__c":"","Id":"a1736000000QDWhAAO","%vlocity_namespace%__OmniScriptVersion__c":1,"%vlocity_namespace%__ReusableOmniScript__c":false,"%vlocity_namespace%__ParentElementName__c":"NewMessage","%vlocity_namespace%__ParentElementType__c":"Step"}]}],"VlocityDataPackIsIncluded":true},"VlocityDataPackAllRelationships":{"e503f3ec0e3042cf40089ab47a689220":"Reference by Salesforce Id","c127030ee193a1ac26dbfa1ef19c98ee":"Reference by Salesforce Id","b126c4bf902ef9f0749848c542cd3b8c":"Reference by Salesforce Id"},"DataPackAttachmentSize":14928,"DataPackAttachmentParentId":"a0x1R000004SHOEQA4","DataPackAttachmentId":"00P1R00000d3YAoUAM","ActivationStatus":"Ready"}],"dataPackId":"a0x1R000004SHOEQA4","name":"ChatterMessageOmni","version":1}
+{
+  "warnings": {
+    "b126c4bf902ef9f0749848c542cd3b8c": [
+      {
+        "VlocityPrimarySourceId": null,
+        "VlocityPreviousPageKey": null,
+        "VlocityMultiPackParentKey": null,
+        "VlocityDepthFromPrimary": 0,
+        "VlocityDataPackType": "Apex Class",
+        "VlocityDataPackStatus": "Not Included",
+        "VlocityDataPackRelationshipType": "Metadata",
+        "VlocityDataPackRecords": null,
+        "VlocityDataPackParents": [],
+        "VlocityDataPackName": "ScheduleAppointmentService",
+        "VlocityDataPackMessage": "Apex Class Export Not Supported",
+        "VlocityDataPackLabel": "Apex Class",
+        "VlocityDataPackKey": "b126c4bf902ef9f0749848c542cd3b8c",
+        "VlocityDataPackIsNotSupported": false,
+        "VlocityDataPackIsIncluded": true,
+        "VlocityDataPackData": null,
+        "VlocityDataPackAllRelationships": {
+          "d0096b5855ade7b1e94f1977c4d64bbb": "Reference by Salesforce Id"
+        },
+        "DataPackAttachmentSize": 1013,
+        "DataPackAttachmentParentId": "a0x1R000004SHOEQA4",
+        "DataPackAttachmentId": "00P1R00000d3YAyUAM",
+        "ActivationStatus": "NA"
+      }
+    ]
+  },
+  "useVlocityTriggers": true,
+  "status": "Complete",
+  "processMultiple": true,
+  "primaryDataPackType": "OmniScript",
+  "primaryDataPackKey": "d0096b5855ade7b1e94f1977c4d64bbb",
+  "maxDepth": -1,
+  "isChunked": false,
+  "ignoreAllErrors": false,
+  "dataPacks": [
+    {
+      "VlocityPrimarySourceId": "a1A36000000DrO1EAK",
+      "VlocityPreviousPageKey": null,
+      "VlocityMultiPackParentKey": null,
+      "VlocityDepthFromPrimary": 0,
+      "VlocityDataPackType": "OmniScript",
+      "VlocityDataPackStatus": "Success",
+      "VlocityDataPackRelationshipType": "Primary",
+      "VlocityDataPackRecords": [],
+      "VlocityDataPackParents": [],
+      "VlocityDataPackName": "Chatter Message",
+      "VlocityDataPackMessage": null,
+      "VlocityDataPackLabel": "OmniScript",
+      "VlocityDataPackKey": "d0096b5855ade7b1e94f1977c4d64bbb",
+      "VlocityDataPackIsNotSupported": false,
+      "VlocityDataPackIsIncluded": true,
+      "VlocityDataPackData": {
+        "VlocityDataPackRelationshipType": "Primary",
+        "VlocityDataPackKey": "d0096b5855ade7b1e94f1977c4d64bbb",
+        "VlocityDataPackLabel": "OmniScript",
+        "VlocityDataPackType": "OmniScript",
+        "Id": "a1A36000000DrO1EAK",
+        "%vlocity_namespace%__OmniScript__c": [
+          {
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSourceKey": "VlocityRecordSourceKey:a1A36000000DrO1EAK",
+            "VlocityDataPackIsIncluded": true,
+            "Name": "Chatter Message",
+            "%vlocity_namespace%__AdditionalInformation__c": "",
+            "%vlocity_namespace%__CustomJavaScript__c": "",
+            "%vlocity_namespace%__DataRaptorBundleId__c": "",
+            "%vlocity_namespace%__IsActive__c": true,
+            "%vlocity_namespace%__IsReusable__c": false,
+            "%vlocity_namespace%__Language__c": "English",
+            "%vlocity_namespace%__PropertySet__c": "{\"persistentComponent\":[{\"render\":false,\"label\":\"\",\"remoteClass\":\"\",\"remoteMethod\":\"\",\"remoteTimeout\":30000,\"remoteOptions\":{\"preTransformBundle\":\"\",\"postTransformBundle\":\"\"},\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"id\":\"vlcCart\",\"itemsKey\":\"cartItems\",\"modalConfigurationSetting\":{\"modalHTMLTemplateId\":\"vlcProductConfig.html\",\"modalController\":\"ModalProductCtrl\",\"modalSize\":\"lg\"},\"sendJSONPath\":\"\",\"sendJSONNode\":\"\",\"responseJSONPath\":\"\",\"responseJSONNode\":\"\"},{\"render\":false,\"label\":\"\",\"remoteClass\":\"\",\"remoteMethod\":\"\",\"remoteTimeout\":30000,\"remoteOptions\":{\"preTransformBundle\":\"\",\"postTransformBundle\":\"\"},\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"id\":\"vlcKnowledge\",\"itemsKey\":\"knowledgeItems\",\"modalConfigurationSetting\":{\"modalHTMLTemplateId\":\"\",\"modalController\":\"\",\"modalSize\":\"lg\"}}],\"allowSaveForLater\":true,\"saveNameTemplate\":null,\"saveExpireInDays\":null,\"saveForLaterRedirectPageName\":\"sflRedirect\",\"saveForLaterRedirectTemplateUrl\":\"vlcSaveForLaterAcknowledge.html\",\"saveContentEncoded\":false,\"autoSaveOnStepNext\":false,\"elementTypeToHTMLTemplateMapping\":{},\"seedDataJSON\":{},\"enableKnowledge\":false,\"knowledgeArticleTypeQueryFieldsMap\":{},\"timeTracking\":true,\"includeCustomization\":true}",
+            "%vlocity_namespace%__SubType__c": "ChatterMessage",
+            "%vlocity_namespace%__TestHTMLTemplates__c": "",
+            "%vlocity_namespace%__Type__c": "Tenant",
+            "%vlocity_namespace%__Version__c": 1,
+            "Id": "a1A36000000DrO1EAK",
+            "LastViewedDate": "2018-11-30T19:04:23.000Z",
+            "LastReferencedDate": "2018-11-30T19:04:23.000Z",
+            "%vlocity_namespace%__Element__c": [
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a1736000000PsLVAA0",
+                "VlocityDataPackIsIncluded": true,
+                "Name": "ProviderId",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "Chatter Message",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1A36000000DrO1EAK"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 0,
+                "%vlocity_namespace%__Order__c": 1,
+                "%vlocity_namespace%__ParentElementId__c": "",
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":null,\"label\":\"ProviderId\",\"controlWidth\":12,\"remoteClass\":\"ScheduleAppointmentService\",\"remoteMethod\":\"getProviderId\",\"remoteOptions\":{\"preTransformBundle\":\"\",\"postTransformBundle\":\"\"},\"remoteTimeout\":30000,\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"inProgressMessage\":\"In Progress\",\"postMessage\":\"Done\",\"failureNextLabel\":\"Continue\",\"failureAbortLabel\":\"Abort\",\"failureAbortMessage\":\"Are you sure?\",\"validationRequired\":\"None\",\"redirectPageName\":\"\",\"redirectTemplateUrl\":\"vlcAcknowledge.html\",\"redirectNextLabel\":\"Next\",\"redirectNextWidth\":3,\"redirectPreviousLabel\":\"Previous\",\"redirectPreviousWidth\":3,\"showPersistentComponent\":[false,false]}",
+                "%vlocity_namespace%__SearchKey__c": "",
+                "%vlocity_namespace%__Type__c": "Remote Action",
+                "%vlocity_namespace%__InternalNotes__c": "",
+                "Id": "a1736000000PsLVAA0",
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__ReusableOmniScript__c": false
+              },
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a1736000000PsLWAA0",
+                "VlocityDataPackIsIncluded": true,
+                "Name": "NewMessage",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "Chatter Message",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1A36000000DrO1EAK"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 0,
+                "%vlocity_namespace%__Order__c": 2,
+                "%vlocity_namespace%__ParentElementId__c": "",
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":null,\"label\":\"New Message\",\"validationRequired\":true,\"previousLabel\":\"Previous\",\"previousWidth\":3,\"nextLabel\":\"Next\",\"nextWidth\":3,\"cancelLabel\":\"Cancel\",\"cancelMessage\":\"Are you sure?\",\"saveLabel\":\"Save for later\",\"saveMessage\":\"Are you sure you want to save it for later?\",\"completeLabel\":\"Complete\",\"completeMessage\":\"Are you sure you want to complete the script?\",\"instruction\":\"\",\"showPersistentComponent\":[false,false],\"remoteClass\":\"\",\"remoteMethod\":\"\",\"remoteTimeout\":30000,\"remoteOptions\":{},\"knowledgeOptions\":{\"language\":\"English\",\"publishStatus\":\"Online\",\"keyword\":\"\",\"dataCategoryCriteria\":\"\",\"remoteTimeout\":30000},\"conditionType\":\"Hide if False\"}",
+                "%vlocity_namespace%__SearchKey__c": "",
+                "%vlocity_namespace%__Type__c": "Step",
+                "%vlocity_namespace%__InternalNotes__c": "",
+                "Id": "a1736000000PsLWAA0",
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__ReusableOmniScript__c": false
+              },
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a1736000000PsLbAAK",
+                "VlocityDataPackIsIncluded": true,
+                "Name": "Message",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "Chatter Message",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1A36000000DrO1EAK"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 1,
+                "%vlocity_namespace%__Order__c": 2,
+                "%vlocity_namespace%__ParentElementId__c": {
+                  "Name": "NewMessage",
+                  "%vlocity_namespace%__OmniScriptId__c": "a1A36000000DrO1EAK",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1736000000PsLWAA0"
+                },
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":null,\"label\":\"Message\",\"controlWidth\":12,\"required\":false,\"repeat\":false,\"repeatClone\":false,\"readOnly\":false,\"help\":false,\"helpText\":\"\",\"pattern\":\"\",\"ptrnErrText\":\"\",\"minLength\":0,\"maxLength\":1200,\"conditionType\":\"Hide if False\",\"debounceValue\":0,\"accessibleInFutureSteps\":false}",
+                "%vlocity_namespace%__SearchKey__c": "",
+                "%vlocity_namespace%__Type__c": "Text Area",
+                "%vlocity_namespace%__InternalNotes__c": "",
+                "Id": "a1736000000PsLbAAK",
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__ReusableOmniScript__c": false,
+                "%vlocity_namespace%__ParentElementName__c": "NewMessage",
+                "%vlocity_namespace%__ParentElementType__c": "Step"
+              },
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a1736000000PsLcAAK",
+                "VlocityDataPackIsIncluded": true,
+                "Name": "Send to Provider",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "Chatter Message",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1A36000000DrO1EAK"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 1,
+                "%vlocity_namespace%__Order__c": 3,
+                "%vlocity_namespace%__ParentElementId__c": {
+                  "Name": "NewMessage",
+                  "%vlocity_namespace%__OmniScriptId__c": "a1A36000000DrO1EAK",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1736000000PsLWAA0"
+                },
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":{\"group\":{\"operator\":\"AND\",\"rules\":[{\"condition\":\"=\",\"field\":\"Who\",\"data\":\"Property Management\"}]}},\"label\":\"Send Message\",\"controlWidth\":3,\"remoteClass\":\"ScheduleAppointmentService\",\"remoteMethod\":\"sendChatterMessage\",\"remoteOptions\":{\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"UserId\":\"00536000001IAJU\",\"Message\":\"%Message%\"},\"remoteTimeout\":30000,\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"inProgressMessage\":\"In Progress\",\"postMessage\":\"Done\",\"failureNextLabel\":\"Continue\",\"failureAbortLabel\":\"Abort\",\"failureAbortMessage\":\"Are you sure?\",\"validationRequired\":\"Step\",\"redirectPageName\":\"\",\"redirectTemplateUrl\":\"vlcAcknowledge.html\",\"redirectNextLabel\":\"Next\",\"redirectNextWidth\":3,\"redirectPreviousLabel\":\"Previous\",\"redirectPreviousWidth\":3,\"showPersistentComponent\":[false,false]}",
+                "%vlocity_namespace%__SearchKey__c": "",
+                "%vlocity_namespace%__Type__c": "Remote Action",
+                "%vlocity_namespace%__InternalNotes__c": "",
+                "Id": "a1736000000PsLcAAK",
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__ReusableOmniScript__c": false,
+                "%vlocity_namespace%__ParentElementName__c": "NewMessage",
+                "%vlocity_namespace%__ParentElementType__c": "Step"
+              },
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a1736000000PsLdAAK",
+                "VlocityDataPackIsIncluded": true,
+                "Name": "Success Messaging",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "Chatter Message",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1A36000000DrO1EAK"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 1,
+                "%vlocity_namespace%__Order__c": 5,
+                "%vlocity_namespace%__ParentElementId__c": {
+                  "Name": "NewMessage",
+                  "%vlocity_namespace%__OmniScriptId__c": "a1A36000000DrO1EAK",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1736000000PsLWAA0"
+                },
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":null,\"label\":null,\"controlWidth\":12,\"validateExpression\":{\"group\":{\"operator\":\"AND\",\"rules\":[{\"condition\":\"=\",\"field\":\"MessageSent\",\"data\":\"true\"}]}},\"messages\":[{\"value\":true,\"type\":\"Success\",\"text\":\"Thank you! Your message has been successfully sent.\",\"active\":true},{\"value\":false,\"type\":\"Success\",\"text\":\"\",\"active\":false}],\"hideLabel\":true}",
+                "%vlocity_namespace%__SearchKey__c": "",
+                "%vlocity_namespace%__Type__c": "Validation",
+                "%vlocity_namespace%__InternalNotes__c": "",
+                "Id": "a1736000000PsLdAAK",
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__ReusableOmniScript__c": false,
+                "%vlocity_namespace%__ParentElementName__c": "NewMessage",
+                "%vlocity_namespace%__ParentElementType__c": "Step"
+              },
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a1736000000QDWcAAO",
+                "VlocityDataPackIsIncluded": true,
+                "Name": "Who",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "Chatter Message",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1A36000000DrO1EAK"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 1,
+                "%vlocity_namespace%__Order__c": 1,
+                "%vlocity_namespace%__ParentElementId__c": {
+                  "Name": "NewMessage",
+                  "%vlocity_namespace%__OmniScriptId__c": "a1A36000000DrO1EAK",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1736000000PsLWAA0"
+                },
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":null,\"label\":\"Who would you like to contact?\",\"controlWidth\":12,\"required\":false,\"repeat\":false,\"repeatClone\":false,\"readOnly\":false,\"help\":false,\"options\":[{\"name\":\"Property Management\",\"value\":\"Property Management\"},{\"name\":\"Region of Peel Housing\",\"value\":\"Region of Peel Housing\"}],\"optionSource\":{\"type\":\"\",\"source\":\"\"},\"controllingField\":{\"element\":\"\",\"type\":\"\",\"source\":\"\"},\"conditionType\":\"Hide if False\",\"accessibleInFutureSteps\":false}",
+                "%vlocity_namespace%__SearchKey__c": "",
+                "%vlocity_namespace%__Type__c": "Select",
+                "%vlocity_namespace%__InternalNotes__c": "",
+                "Id": "a1736000000QDWcAAO",
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__ReusableOmniScript__c": false,
+                "%vlocity_namespace%__ParentElementName__c": "NewMessage",
+                "%vlocity_namespace%__ParentElementType__c": "Step"
+              },
+              {
+                "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSourceKey": "VlocityRecordSourceKey:a1736000000QDWhAAO",
+                "VlocityDataPackIsIncluded": true,
+                "Name": "Send to Agency",
+                "%vlocity_namespace%__OmniScriptId__c": {
+                  "Name": "Chatter Message",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1A36000000DrO1EAK"
+                },
+                "%vlocity_namespace%__Active__c": true,
+                "%vlocity_namespace%__Level__c": 1,
+                "%vlocity_namespace%__Order__c": 4,
+                "%vlocity_namespace%__ParentElementId__c": {
+                  "Name": "NewMessage",
+                  "%vlocity_namespace%__OmniScriptId__c": "a1A36000000DrO1EAK",
+                  "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+                  "VlocityDataPackType": "VlocityMatchingKeyObject",
+                  "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a1736000000PsLWAA0"
+                },
+                "%vlocity_namespace%__PropertySet__c": "{\"show\":{\"group\":{\"operator\":\"AND\",\"rules\":[{\"condition\":\"=\",\"field\":\"Who\",\"data\":\"Region of Peel Housing\"}]}},\"label\":\"Send Message\",\"controlWidth\":3,\"remoteClass\":\"ScheduleAppointmentService\",\"remoteMethod\":\"sendChatterMessage\",\"remoteOptions\":{\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"UserId\":\"00536000000q8RS\",\"Message\":\"%Message%\"},\"remoteTimeout\":30000,\"preTransformBundle\":\"\",\"postTransformBundle\":\"\",\"inProgressMessage\":\"In Progress\",\"postMessage\":\"Done\",\"failureNextLabel\":\"Continue\",\"failureAbortLabel\":\"Abort\",\"failureAbortMessage\":\"Are you sure?\",\"validationRequired\":\"Step\",\"redirectPageName\":\"\",\"redirectTemplateUrl\":\"vlcAcknowledge.html\",\"redirectNextLabel\":\"Next\",\"redirectNextWidth\":3,\"redirectPreviousLabel\":\"Previous\",\"redirectPreviousWidth\":3,\"showPersistentComponent\":[false,false],\"sendJSONPath\":\"\",\"sendJSONNode\":\"\",\"responseJSONPath\":\"\",\"responseJSONNode\":\"\"}",
+                "%vlocity_namespace%__SearchKey__c": "",
+                "%vlocity_namespace%__Type__c": "Remote Action",
+                "%vlocity_namespace%__InternalNotes__c": "",
+                "Id": "a1736000000QDWhAAO",
+                "%vlocity_namespace%__OmniScriptVersion__c": 1,
+                "%vlocity_namespace%__ReusableOmniScript__c": false,
+                "%vlocity_namespace%__ParentElementName__c": "NewMessage",
+                "%vlocity_namespace%__ParentElementType__c": "Step"
+              }
+            ]
+          }
+        ],
+        "VlocityDataPackIsIncluded": true
+      },
+      "VlocityDataPackAllRelationships": {
+        "e503f3ec0e3042cf40089ab47a689220": "Reference by Salesforce Id",
+        "c127030ee193a1ac26dbfa1ef19c98ee": "Reference by Salesforce Id",
+        "b126c4bf902ef9f0749848c542cd3b8c": "Reference by Salesforce Id"
+      },
+      "DataPackAttachmentSize": 14928,
+      "DataPackAttachmentParentId": "a0x1R000004SHOEQA4",
+      "DataPackAttachmentId": "00P1R00000d3YAoUAM",
+      "ActivationStatus": "Ready"
+    }
+  ],
+  "dataPackId": "a0x1R000004SHOEQA4",
+  "name": "ChatterMessageOmni",
+  "version": 1
+}
